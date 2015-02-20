@@ -1,0 +1,187 @@
+html, body {
+    background-color: #000;
+    margin: 0px;
+	margin-top: 0px;
+	margin-right-value: 0px;
+	margin-bottom: 0px;
+	margin-left-value: 0px;
+	margin-left-ltr-source: physical;
+	margin-left-rtl-source: physical;
+	margin-right-ltr-source: physical;
+	margin-right-rtl-source: physical;
+    padding: 0px;
+	padding-top: 0px;
+	padding-right-value: 0px;
+	padding-bottom: 0px;
+	padding-left-value: 0px;
+	padding-left-ltr-source: physical;
+	padding-left-rtl-source: physical;
+	padding-right-ltr-source: physical;
+	padding-right-rtl-source: physical;
+    overflow: hidden !important;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+body {
+ font-family: "Arial";
+}
+
+@keyframes onair {
+	0% {text-shadow: 0 0 10px #fff, 0 0 20px #00d2ff;};
+	50% {text-shadow: none;};
+	100%: {text-shadow: 0 0 10px #fff, 0 0 20px #00d2ff;};
+}
+.onair {
+    animation: 2s linear 0s normal none infinite running onair;
+}
+
+.master-layout {
+  height: 100vh;
+}
+.main {
+	max-height: 90vh;
+}
+
+.content_right_visible,
+.content_right_hidden {
+	max-height: 85vh;
+	min-height: 85vh;
+	max-width: 40vw;	
+	min-width: 40vw;	
+	font-size: 8px;	
+}
+
+.content_right_visible {
+	display: block;
+}
+
+.content_right_hidden {
+	display: none;
+}
+
+.content_left {
+	max-height: 85vh;
+	min-height: 85vh;
+	max-width: 60vw;	
+	min-width: 60vw;
+}
+
+.footer_left,
+.content_left {
+	float: left;
+}
+
+.footer_right,
+.content_right_visible,
+.content_right_hidden{
+	float: right;
+}
+
+.footer_right {
+	max-width: 30vw;	
+	min-width: 30vw;
+	max-height: 15vh;
+	min-height: 15vh;
+}
+
+.footer_left {
+	max-width: 50vw;	
+	min-width: 50vw;
+	max-height: 15vh;
+	min-height: 15vh;	
+}
+
+.title {
+	color: #fff;	
+}
+
+.credits {
+	clear: both;
+	color:white;
+	float: bottom;
+}
+
+.ontology_style {
+	font-size: 12px;
+}
+
+#loading {
+    left: 20%;
+    margin: auto;
+    position: fixed;
+    text-align: center;
+    top: 40%;
+    width: 20%;
+    z-index: 999;
+	color: #fff;
+}
+a {
+    color: #009de9;
+}
+.xtk-progress-bar {
+    display: none !important;
+}
+.loader-bg {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+@keyframes boxair {
+	0% {box-shadow: 0 0 10px #fff, 0 0 20px #00d2ff;};
+	50% {box-shadow: none;};
+	100% {box-shadow: 0 0 10px #fff, 0 0 20px #00d2ff;};
+}
+
+.boxair {
+    animation: 2s linear 0s normal none infinite running boxair;
+}
+
+.brain_view_style {
+    background-color: #000;	
+	color: #fff;	
+}
+
+.BrainLocator {
+    background-color: #000;	
+	color: #fff;	
+}
+
+#dat-gui-container .close-button { display:block;} 
+
+.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 60px;                  
+  height: 22px;                 
+  padding: 2px;             
+  font: 14px sans-serif;        
+  background: purple; 
+  color: white;  
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+
+.selection {
+    stroke          : white;
+    stroke-width    : 2px;
+    stroke-dasharray: 4px;
+    stroke-opacity  : 0.9;
+    fill            : transparent;
+}
+
+.selected_circle {
+    stroke          : #d0d0d0 ;
+    stroke-width    : 2px;
+    stroke-dasharray: 4px;
+    stroke-opacity  : 0.5;
+    fill            : #d0d0d0;
+	opacity			: 0.5;
+}

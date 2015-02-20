@@ -1,1 +1,115 @@
-Coming soon to a browser near you....
+<!-- 
+/*
+ * 
+ *                  xxxxxxx      xxxxxxx
+ *                   x:::::x    x:::::x 
+ *                    x:::::x  x:::::x  
+ *                     x:::::xx:::::x   
+ *                      x::::::::::x    
+ *                       x::::::::x     
+ *                       x::::::::x     
+ *                      x::::::::::x    
+ *                     x:::::xx:::::x   
+ *                    x:::::x  x:::::x  
+ *                   x:::::x    x:::::x 
+ *              THE xxxxxxx      xxxxxxx TOOLKIT
+ *                    
+ *                  http://www.goXTK.com
+ *                   
+ * Copyright (c) 2012 The X Toolkit Developers <dev@goXTK.com>
+ *                   
+ *    The X Toolkit (XTK) is licensed under the MIT License:
+ *      http://www.opensource.org/licenses/mit-license.php
+ *
+ * tSNE output as spheres (from Lesson 9)!
+ */
+-->
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>tSNE Example</title>
+
+<link rel="stylesheet" type="text/css" title="Main" href="demo.css">
+<link rel="stylesheet" type="text/css" title="Annotation" href="annstyle.css"> 
+
+<!-- XTK High speed rendering using Webgl -->
+<!--<script type="text/javascript" src="http://get.goXTK.com/xtk_edge.js"></script>-->
+<script src="./scripts/X/utils/xtk.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://get.goXTK.com/xtk_xdat.gui.js" type="text/javascript"></script>
+
+<!-- for 2D - several options : -->
+<!-- XTK - can't get selection to work in 2D-->
+
+<!-- d3 is cool but SVG is too slow for >= 10,000 points -->
+<script src="http://d3js.org/d3.v3.js"></script>
+
+<!-- Try RGraph - HTML5 Canvas based -->
+<!-- <script src="./scripts/RGraph/libraries/RGraph.common.core.js" ></script>
+<script src="./scripts/RGraph/libraries/RGraph.common.dynamic.js" ></script>
+<script src="./scripts/RGraph/libraries/RGraph.common.tooltips.js" ></script>
+<script src="./scripts/RGraph/libraries/RGraph.scatter.js" ></script> -->
+
+<!-- Using webix for the cool treetable control  - created a skinned version at http://webix.com/skin-builder/-->
+<!--script src="./scripts/webix/codebase/webix.js" type="text/javascript" charset="utf-8"></script-->
+<script src="./scripts/webix/webix.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="./scripts/webix/webix.css" type="text/css" charset="utf-8">
+
+<!-- For building a kdtree for point searches--> 
+<script src="./scripts/kdTree.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<!-- The main JS file -->
+
+<script type="text/javascript" src="demo_seperate_objects.js"></script>
+<style type="text/css">
+    .checked{
+        color:black;
+        font-weight: bold; cursor:pointer;
+    }
+    .unchecked{
+        color:black;
+        font-weight:normal; cursor: pointer;
+    }
+</style>
+</head>
+
+<body class="master-layout">
+	<header class="title" id="title">
+	</header>
+	<div id="control_gui_container"/>
+	<div id="loading">
+		<h1 class="onair" id="loading_prompt">Please load a map...</h1>
+		<div class="loader-bg boxair"></div>
+	</div>		
+	<div class="main">	
+		<div class="content_left" id="3DtsneMap" ></div>
+		<div class="content_right_visible" id="AtlasOntology"></div>	
+		<div class="content_right_hidden" id="BrainLocator"></div>		
+		<!-- clear needed otherwise the footer floats -->
+	</div>
+	<footer class="credits">
+		<div class="footer_right">
+			<p>
+				Built using <a style="color:cyan" href="https://github.com/xtk/X">XTK*</a>  and <a style="color:cyan" href="http://webix.com/">webix#</a> by <a style="color:cyan" href="mailto:b.van_lew@lumc.nl">B. van Lew </a> 
+			</p>
+			<p style="font-size:xx-small">
+				* The X Toolkit: WebGL™ for Scientific Visualization
+			</p>
+			<p style="font-size:xx-small">
+				# Under GPL
+			</p>
+		</div>
+		<div class="footer_left">
+			<p>Tips:</p>
+			<ol type="1" style="font-size:small">
+				<li><b>First load a tSNE map</b></li>
+				<li>You can select structures in the tSNE map or the ontology</li>
+				<li>Hovering over the tSNE the ontology labels will be visible</li>
+				<li>Right-mouse click on the tSNE map to select all related voxels</li>
+				<li>In the ontology both tree or single selection is supported</li>
+			</ol>
+		</div>
+	</footer>	
+</body>
+</html>

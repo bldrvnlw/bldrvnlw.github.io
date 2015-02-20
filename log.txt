@@ -1,0 +1,4527 @@
+[384] connection accepted
+[384] IP: 127.0.0.1
+Connected clients: 1
+[384] request path: 
+[384] 218 bytes sent (218 KB/s)
+[384] 4608 bytes sent (4608 KB/s)
+[384] socket closed after responded for 1 requests
+Connected clients: 1
+[384] connection accepted
+[384] IP: 127.0.0.1
+Connected clients: 1
+[384] request path: demo.css
+[384] 217 bytes sent (217 KB/s)
+[384] 3466 bytes sent (3466 KB/s)
+[384] socket closed after responded for 1 requests
+Connected clients: 1
+[384] connection accepted
+[384] IP: 127.0.0.1
+Connected clients: 1
+[384] request path: annstyle.css
+[384] 215 bytes sent (215 KB/s)
+[384] 242 bytes sent (242 KB/s)
+[384] socket closed after responded for 1 requests
+Connected clients: 1
+[384] connection accepted
+[384] IP: 127.0.0.1
+Connected clients: 1
+[384] request path: scripts/X/utils/xtk.js
+[384] 235 bytes sent (235 KB/s)
+[384] 131307 bytes sent (131307 KB/s)
+[384] 262379 bytes sent (262379 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[392] request path: scripts/webix/webix.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[384] 393451 bytes sent (393451 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 3
+[404] connection accepted
+[404] IP: 127.0.0.1
+Connected clients: 4
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 5
+[400] request path: scripts/webix/webix.css
+[400] 219 bytes sent (219 KB/s)
+[404] request path: scripts/kdTree.js
+[400] 125838 bytes sent (125838 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 5
+[404] 234 bytes sent (234 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 5
+[404] 13976 bytes sent (13976 KB/s)
+[404] socket closed after responded for 1 requests
+Connected clients: 5
+[408] request path: demo_seperate_objects.js
+[384] 524523 bytes sent (524523 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[408] 234 bytes sent (234 KB/s)
+[408] 44846 bytes sent (44846 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 4
+[384] 655595 bytes sent (655595 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[384] 786667 bytes sent (786667 KB/s)
+[392] 435744 bytes sent (435744 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[384] 792833 bytes sent (792833 KB/s)
+[384] socket closed after responded for 1 requests
+Connected clients: 2
+[400] request path: favicon.ico
+[400] 232 bytes sent (0 KB/s)
+[400] 550 bytes sent (0 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: favicon.ico
+[400] 232 bytes sent (232 KB/s)
+[400] 550 bytes sent (550 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: ontology.json
+[400] 235 bytes sent (235 KB/s)
+[400] 131307 bytes sent (131307 KB/s)
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 2
+[388] request path: favicon.ico
+[388] 232 bytes sent (232 KB/s)
+[388] 550 bytes sent (550 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 2
+[400] 262379 bytes sent (262379 KB/s)
+[400] 393451 bytes sent (393451 KB/s)
+[400] 524523 bytes sent (524523 KB/s)
+[400] 655595 bytes sent (655595 KB/s)
+[400] 786667 bytes sent (786667 KB/s)
+[400] 877817 bytes sent (877817 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[384] connection accepted
+[384] IP: 127.0.0.1
+Connected clients: 2
+[400] request path: voxel.json
+[400] 236 bytes sent (236 KB/s)
+[384] request path: tsnemap2D_mouse_p64_t0_7.json
+[400] 131308 bytes sent (131308 KB/s)
+[384] 236 bytes sent (236 KB/s)
+[384] 131308 bytes sent (131308 KB/s)
+[400] 262380 bytes sent (262380 KB/s)
+[384] 262380 bytes sent (262380 KB/s)
+[400] 393452 bytes sent (393452 KB/s)
+[400] 524524 bytes sent (524524 KB/s)
+[384] 393452 bytes sent (393452 KB/s)
+[400] 655596 bytes sent (655596 KB/s)
+[400] 786668 bytes sent (786668 KB/s)
+[384] 524524 bytes sent (524524 KB/s)
+[400] 917740 bytes sent (917740 KB/s)
+[384] 655596 bytes sent (655596 KB/s)
+[400] 1048812 bytes sent (1048812 KB/s)
+[384] 786668 bytes sent (786668 KB/s)
+[400] 1179884 bytes sent (1179884 KB/s)
+[384] 917740 bytes sent (917740 KB/s)
+[400] 1310956 bytes sent (1310956 KB/s)
+[384] 1048812 bytes sent (1048812 KB/s)
+[400] 1398608 bytes sent (1398608 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 2
+[384] 1101843 bytes sent (1101843 KB/s)
+[384] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: coords.json
+[400] 236 bytes sent (236 KB/s)
+[400] 131308 bytes sent (131308 KB/s)
+[400] 262380 bytes sent (262380 KB/s)
+[400] 393452 bytes sent (393452 KB/s)
+[400] 524524 bytes sent (524524 KB/s)
+[400] 655596 bytes sent (655596 KB/s)
+[400] 786668 bytes sent (786668 KB/s)
+[400] 917740 bytes sent (917740 KB/s)
+[400] 1048812 bytes sent (1048812 KB/s)
+[400] 1179884 bytes sent (1179884 KB/s)
+[400] 1310956 bytes sent (1310956 KB/s)
+[400] 1442028 bytes sent (1442028 KB/s)
+[400] 1573100 bytes sent (1573100 KB/s)
+[400] 1580446 bytes sent (1580446 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: voxel.json
+[400] 236 bytes sent (236 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[400] 131308 bytes sent (131308 KB/s)
+[392] request path: tsnemap2D_mouse_p32_t0_7.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[400] 262380 bytes sent (262380 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[400] 393452 bytes sent (393452 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[400] 524524 bytes sent (524524 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[400] 655596 bytes sent (655596 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[400] 786668 bytes sent (786668 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[400] 917740 bytes sent (917740 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[400] 1048812 bytes sent (1048812 KB/s)
+[400] 1179884 bytes sent (1179884 KB/s)
+[392] 1048812 bytes sent (1048812 KB/s)
+[400] 1310956 bytes sent (1310956 KB/s)
+[392] 1108293 bytes sent (1108293 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[400] 1398608 bytes sent (1398608 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: 
+[400] 218 bytes sent (218 KB/s)
+[400] 4608 bytes sent (4608 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: demo.css
+[400] 217 bytes sent (217 KB/s)
+[400] 3466 bytes sent (3466 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: annstyle.css
+[400] 215 bytes sent (215 KB/s)
+[400] 242 bytes sent (242 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: scripts/X/utils/xtk.js
+[400] 235 bytes sent (235 KB/s)
+[400] 131307 bytes sent (131307 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 3
+[392] request path: scripts/webix/webix.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[168] request path: scripts/webix/webix.css
+[168] 219 bytes sent (219 KB/s)
+[400] 262379 bytes sent (262379 KB/s)
+[168] 125838 bytes sent (125838 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 3
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 3
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 4
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 5
+[168] request path: scripts/kdTree.js
+[168] 234 bytes sent (234 KB/s)
+[168] 13976 bytes sent (13976 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 5
+[364] request path: demo_seperate_objects.js
+[400] 393451 bytes sent (393451 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[364] 234 bytes sent (234 KB/s)
+[364] 44946 bytes sent (44946 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 4
+[400] 524523 bytes sent (524523 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[400] 655595 bytes sent (655595 KB/s)
+[392] 435744 bytes sent (435744 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[400] 786667 bytes sent (786667 KB/s)
+[400] 792833 bytes sent (792833 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 2
+[368] request path: favicon.ico
+[368] 232 bytes sent (0 KB/s)
+[368] 550 bytes sent (0 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: ontology.json
+[368] 235 bytes sent (235 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[368] 262379 bytes sent (262379 KB/s)
+[368] 393451 bytes sent (393451 KB/s)
+[368] 524523 bytes sent (524523 KB/s)
+[368] 655595 bytes sent (655595 KB/s)
+[368] 786667 bytes sent (786667 KB/s)
+[368] 877817 bytes sent (877817 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: voxel.json
+[368] 236 bytes sent (236 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 2
+[368] 262380 bytes sent (262380 KB/s)
+[388] request path: tsnemap2D_mouse_p64_t0_7.json
+[368] 393452 bytes sent (393452 KB/s)
+[388] 236 bytes sent (236 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[388] 131308 bytes sent (131308 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[388] 262380 bytes sent (262380 KB/s)
+[368] 786668 bytes sent (786668 KB/s)
+[388] 393452 bytes sent (393452 KB/s)
+[368] 917740 bytes sent (917740 KB/s)
+[388] 524524 bytes sent (524524 KB/s)
+[388] 655596 bytes sent (655596 KB/s)
+[388] 786668 bytes sent (786668 KB/s)
+[388] 917740 bytes sent (917740 KB/s)
+[368] 1048812 bytes sent (1048812 KB/s)
+[368] 1179884 bytes sent (1179884 KB/s)
+[368] 1310956 bytes sent (1310956 KB/s)
+[368] 1398608 bytes sent (1398608 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[388] 1048812 bytes sent (1048812 KB/s)
+[388] 1101843 bytes sent (1101843 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: coords.json
+[388] 236 bytes sent (236 KB/s)
+[388] 131308 bytes sent (131308 KB/s)
+[388] 262380 bytes sent (262380 KB/s)
+[388] 393452 bytes sent (393452 KB/s)
+[388] 524524 bytes sent (524524 KB/s)
+[388] 655596 bytes sent (655596 KB/s)
+[388] 786668 bytes sent (786668 KB/s)
+[388] 917740 bytes sent (917740 KB/s)
+[388] 1048812 bytes sent (1048812 KB/s)
+[388] 1179884 bytes sent (1179884 KB/s)
+[388] 1310956 bytes sent (1310956 KB/s)
+[388] 1442028 bytes sent (1442028 KB/s)
+[388] 1573100 bytes sent (1573100 KB/s)
+[388] 1580446 bytes sent (1580446 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: 
+[388] 218 bytes sent (218 KB/s)
+[388] 4608 bytes sent (4608 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: demo.css
+[388] 217 bytes sent (217 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[388] 3466 bytes sent (3466 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 2
+[368] request path: annstyle.css
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[392] request path: scripts/X/utils/xtk.js
+[368] 215 bytes sent (215 KB/s)
+[392] 235 bytes sent (235 KB/s)
+[368] 242 bytes sent (242 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[392] 131307 bytes sent (131307 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: scripts/webix/webix.js
+[368] 235 bytes sent (235 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 4
+[344] request path: scripts/webix/webix.css
+[392] 262379 bytes sent (262379 KB/s)
+[344] 219 bytes sent (219 KB/s)
+[364] request path: scripts/kdTree.js
+[344] 125838 bytes sent (125838 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 4
+[364] 234 bytes sent (234 KB/s)
+[368] 262379 bytes sent (262379 KB/s)
+[364] 13976 bytes sent (13976 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 3
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 3
+[364] request path: demo_seperate_objects.js
+[392] 393451 bytes sent (393451 KB/s)
+[368] 393451 bytes sent (393451 KB/s)
+[364] 234 bytes sent (234 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 4
+[364] 44951 bytes sent (44951 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 4
+[392] 524523 bytes sent (524523 KB/s)
+[368] 435744 bytes sent (435744 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 3
+[392] 655595 bytes sent (655595 KB/s)
+[392] 786667 bytes sent (786667 KB/s)
+[392] 792833 bytes sent (792833 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[344] request path: favicon.ico
+[344] 232 bytes sent (0 KB/s)
+[344] 550 bytes sent (0 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: ontology.json
+[344] 235 bytes sent (235 KB/s)
+[344] 131307 bytes sent (131307 KB/s)
+[344] 262379 bytes sent (262379 KB/s)
+[344] 393451 bytes sent (393451 KB/s)
+[344] 524523 bytes sent (524523 KB/s)
+[344] 655595 bytes sent (655595 KB/s)
+[344] 786667 bytes sent (786667 KB/s)
+[344] 877817 bytes sent (877817 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: voxel.json
+[344] 236 bytes sent (236 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 2
+[344] 131308 bytes sent (131308 KB/s)
+[400] request path: tsnemap2D_mouse_p64_t0_7.json
+[344] 262380 bytes sent (262380 KB/s)
+[400] 236 bytes sent (236 KB/s)
+[400] 131308 bytes sent (131308 KB/s)
+[344] 393452 bytes sent (393452 KB/s)
+[400] 262380 bytes sent (262380 KB/s)
+[344] 524524 bytes sent (524524 KB/s)
+[400] 393452 bytes sent (393452 KB/s)
+[344] 655596 bytes sent (655596 KB/s)
+[400] 524524 bytes sent (524524 KB/s)
+[344] 786668 bytes sent (786668 KB/s)
+[400] 655596 bytes sent (655596 KB/s)
+[344] 917740 bytes sent (917740 KB/s)
+[400] 786668 bytes sent (786668 KB/s)
+[400] 917740 bytes sent (917740 KB/s)
+[344] 1048812 bytes sent (1048812 KB/s)
+[344] 1179884 bytes sent (1179884 KB/s)
+[344] 1310956 bytes sent (1310956 KB/s)
+[400] 1048812 bytes sent (1048812 KB/s)
+[344] 1398608 bytes sent (1398608 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[400] 1101843 bytes sent (1101843 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: coords.json
+[400] 236 bytes sent (236 KB/s)
+[400] 131308 bytes sent (131308 KB/s)
+[400] 262380 bytes sent (262380 KB/s)
+[400] 393452 bytes sent (393452 KB/s)
+[400] 524524 bytes sent (524524 KB/s)
+[400] 655596 bytes sent (655596 KB/s)
+[400] 786668 bytes sent (786668 KB/s)
+[400] 917740 bytes sent (917740 KB/s)
+[400] 1048812 bytes sent (1048812 KB/s)
+[400] 1179884 bytes sent (1179884 KB/s)
+[400] 1310956 bytes sent (1310956 KB/s)
+[400] 1442028 bytes sent (1442028 KB/s)
+[400] 1573100 bytes sent (1573100 KB/s)
+[400] 1580446 bytes sent (1580446 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: 
+[400] 218 bytes sent (218 KB/s)
+[400] 4608 bytes sent (4608 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: demo.css
+[400] 217 bytes sent (217 KB/s)
+[400] 3466 bytes sent (3466 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[400] request path: annstyle.css
+[368] request path: scripts/X/utils/xtk.js
+[400] 215 bytes sent (215 KB/s)
+[368] 235 bytes sent (235 KB/s)
+[400] 242 bytes sent (242 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 2
+[368] 131307 bytes sent (131307 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 2
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[400] request path: scripts/webix/webix.js
+[400] 235 bytes sent (235 KB/s)
+[368] 262379 bytes sent (262379 KB/s)
+[344] request path: scripts/webix/webix.css
+[400] 131307 bytes sent (131307 KB/s)
+[344] 219 bytes sent (219 KB/s)
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 4
+[400] 262379 bytes sent (262379 KB/s)
+[368] 393451 bytes sent (393451 KB/s)
+[344] 125838 bytes sent (125838 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 4
+[396] request path: scripts/kdTree.js
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 4
+[400] 393451 bytes sent (393451 KB/s)
+[368] 524523 bytes sent (524523 KB/s)
+[364] request path: demo_seperate_objects.js
+[396] 234 bytes sent (234 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 5
+[400] 435744 bytes sent (435744 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 5
+[368] 655595 bytes sent (655595 KB/s)
+[364] 234 bytes sent (234 KB/s)
+[396] 13976 bytes sent (13976 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 4
+[368] 786667 bytes sent (786667 KB/s)
+[364] 45160 bytes sent (45160 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 3
+[368] 792833 bytes sent (792833 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[408] request path: favicon.ico
+[408] 232 bytes sent (0 KB/s)
+[408] 550 bytes sent (0 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: 
+[408] 218 bytes sent (218 KB/s)
+[408] 4608 bytes sent (4608 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: demo.css
+[408] 217 bytes sent (217 KB/s)
+[408] 3466 bytes sent (3466 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: annstyle.css
+[408] 215 bytes sent (215 KB/s)
+[408] 242 bytes sent (242 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: scripts/X/utils/xtk.js
+[408] 235 bytes sent (235 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[408] 393451 bytes sent (393451 KB/s)
+[392] request path: scripts/webix/webix.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 3
+[168] request path: scripts/webix/webix.css
+[408] 524523 bytes sent (524523 KB/s)
+[168] 219 bytes sent (219 KB/s)
+[168] 125838 bytes sent (125838 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 3
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 3
+[392] 262379 bytes sent (262379 KB/s)
+[168] request path: scripts/kdTree.js
+[168] 234 bytes sent (234 KB/s)
+[168] 13976 bytes sent (13976 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 3
+[408] 655595 bytes sent (655595 KB/s)
+[408] 786667 bytes sent (786667 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 3
+[168] request path: demo_seperate_objects.js
+[408] 792833 bytes sent (792833 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 3
+[168] 234 bytes sent (234 KB/s)
+[168] 45160 bytes sent (45160 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 2
+[392] 435744 bytes sent (435744 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: favicon.ico
+[392] 232 bytes sent (232 KB/s)
+[392] 550 bytes sent (550 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: 
+[392] 218 bytes sent (218 KB/s)
+[392] 4608 bytes sent (4608 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: demo.css
+[392] 217 bytes sent (217 KB/s)
+[392] 3466 bytes sent (3466 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: annstyle.css
+[392] 215 bytes sent (215 KB/s)
+[392] 242 bytes sent (242 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: scripts/X/utils/xtk.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[392] 524523 bytes sent (524523 KB/s)
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 2
+[168] request path: scripts/webix/webix.js
+[168] 235 bytes sent (235 KB/s)
+[168] 131307 bytes sent (131307 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 3
+[392] 655595 bytes sent (655595 KB/s)
+[408] request path: scripts/webix/webix.css
+[408] 219 bytes sent (219 KB/s)
+[408] 125838 bytes sent (125838 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 3
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 3
+[392] 786667 bytes sent (786667 KB/s)
+[168] 262379 bytes sent (262379 KB/s)
+[408] request path: scripts/kdTree.js
+[408] 234 bytes sent (234 KB/s)
+[408] 13976 bytes sent (13976 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 3
+[392] 792833 bytes sent (792833 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[168] 393451 bytes sent (393451 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[392] request path: demo_seperate_objects.js
+[392] 234 bytes sent (234 KB/s)
+[168] 435744 bytes sent (435744 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 2
+[392] 45160 bytes sent (45160 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: favicon.ico
+[392] 232 bytes sent (232 KB/s)
+[392] 550 bytes sent (550 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: ontology.json
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[392] 524523 bytes sent (524523 KB/s)
+[392] 655595 bytes sent (655595 KB/s)
+[392] 786667 bytes sent (786667 KB/s)
+[392] 877817 bytes sent (877817 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: voxel.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 2
+[168] request path: tsnemap2D_mouse_p64_t0_7.json
+[392] 262380 bytes sent (262380 KB/s)
+[168] 236 bytes sent (236 KB/s)
+[168] 131308 bytes sent (131308 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[168] 262380 bytes sent (262380 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[168] 393452 bytes sent (393452 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[168] 524524 bytes sent (524524 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[168] 655596 bytes sent (655596 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[168] 786668 bytes sent (786668 KB/s)
+[168] 917740 bytes sent (917740 KB/s)
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1179884 bytes sent (1179884 KB/s)
+[392] 1310956 bytes sent (1310956 KB/s)
+[392] 1398608 bytes sent (1398608 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[168] 1048812 bytes sent (1048812 KB/s)
+[168] 1101843 bytes sent (1101843 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: coords.json
+[168] 236 bytes sent (236 KB/s)
+[168] 131308 bytes sent (131308 KB/s)
+[168] 262380 bytes sent (262380 KB/s)
+[168] 393452 bytes sent (393452 KB/s)
+[168] 524524 bytes sent (524524 KB/s)
+[168] 655596 bytes sent (655596 KB/s)
+[168] 786668 bytes sent (786668 KB/s)
+[168] 917740 bytes sent (917740 KB/s)
+[168] 1048812 bytes sent (1048812 KB/s)
+[168] 1179884 bytes sent (1179884 KB/s)
+[168] 1310956 bytes sent (1310956 KB/s)
+[168] 1442028 bytes sent (1442028 KB/s)
+[168] 1573100 bytes sent (1573100 KB/s)
+[168] 1580446 bytes sent (1580446 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: 
+[168] 218 bytes sent (218 KB/s)
+[168] 4608 bytes sent (4608 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: demo.css
+[168] 217 bytes sent (217 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[168] 3644 bytes sent (3644 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 2
+[392] request path: annstyle.css
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 2
+[396] request path: scripts/X/utils/xtk.js
+[392] 215 bytes sent (215 KB/s)
+[396] 235 bytes sent (235 KB/s)
+[392] 242 bytes sent (242 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[396] 131307 bytes sent (131307 KB/s)
+[396] 262379 bytes sent (262379 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[392] request path: scripts/webix/webix.js
+[396] 393451 bytes sent (393451 KB/s)
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 3
+[408] request path: scripts/webix/webix.css
+[396] 524523 bytes sent (524523 KB/s)
+[408] 219 bytes sent (219 KB/s)
+[408] 125838 bytes sent (125838 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 3
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 3
+[408] request path: scripts/kdTree.js
+[408] 234 bytes sent (234 KB/s)
+[408] 13976 bytes sent (13976 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 3
+[392] 262379 bytes sent (262379 KB/s)
+[396] 655595 bytes sent (655595 KB/s)
+[396] 786667 bytes sent (786667 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 3
+[396] 792833 bytes sent (792833 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 3
+[408] request path: demo_seperate_objects.js
+[392] 435744 bytes sent (435744 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[408] 234 bytes sent (234 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[408] 39408 bytes sent (39408 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 2
+[392] request path: favicon.ico
+[392] 232 bytes sent (0 KB/s)
+[392] 550 bytes sent (0 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: ontology.json
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[392] 524523 bytes sent (524523 KB/s)
+[392] 655595 bytes sent (655595 KB/s)
+[392] 786667 bytes sent (786667 KB/s)
+[392] 877817 bytes sent (877817 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: voxel.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 2
+[396] request path: tsnemap2D_mouse_p64_t0_7.json
+[392] 262380 bytes sent (262380 KB/s)
+[396] 236 bytes sent (236 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[396] 131308 bytes sent (131308 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[396] 262380 bytes sent (262380 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[396] 393452 bytes sent (393452 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[396] 524524 bytes sent (524524 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[396] 655596 bytes sent (655596 KB/s)
+[396] 786668 bytes sent (786668 KB/s)
+[396] 917740 bytes sent (917740 KB/s)
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1179884 bytes sent (1179884 KB/s)
+[392] 1310956 bytes sent (1310956 KB/s)
+[392] 1398608 bytes sent (1398608 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[396] 1048812 bytes sent (1048812 KB/s)
+[396] 1101843 bytes sent (1101843 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: 
+[396] 218 bytes sent (218 KB/s)
+[396] 4608 bytes sent (4608 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: demo.css
+[396] 217 bytes sent (217 KB/s)
+[396] 3644 bytes sent (3644 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: annstyle.css
+[396] 215 bytes sent (215 KB/s)
+[396] 242 bytes sent (242 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: scripts/X/utils/xtk.js
+[396] 235 bytes sent (235 KB/s)
+[396] 131307 bytes sent (131307 KB/s)
+[396] 262379 bytes sent (262379 KB/s)
+[396] 393451 bytes sent (393451 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[396] 524523 bytes sent (524523 KB/s)
+[392] request path: scripts/webix/webix.js
+[392] 235 bytes sent (235 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 3
+[396] 655595 bytes sent (655595 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[364] request path: scripts/webix/webix.css
+[364] 219 bytes sent (219 KB/s)
+[364] 125838 bytes sent (125838 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 3
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 3
+[396] 786667 bytes sent (786667 KB/s)
+[364] request path: scripts/kdTree.js
+[364] 234 bytes sent (234 KB/s)
+[364] 13976 bytes sent (13976 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 3
+[396] 792833 bytes sent (792833 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 2
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 2
+[396] request path: demo_seperate_objects.js
+[396] 234 bytes sent (234 KB/s)
+[392] 435744 bytes sent (435744 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[396] 39410 bytes sent (39410 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: favicon.ico
+[396] 232 bytes sent (232 KB/s)
+[396] 550 bytes sent (550 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: ontology.json
+[396] 235 bytes sent (235 KB/s)
+[396] 131307 bytes sent (131307 KB/s)
+[396] 262379 bytes sent (262379 KB/s)
+[396] 393451 bytes sent (393451 KB/s)
+[396] 524523 bytes sent (524523 KB/s)
+[396] 655595 bytes sent (655595 KB/s)
+[396] 786667 bytes sent (786667 KB/s)
+[396] 877817 bytes sent (877817 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: voxel.json
+[396] 236 bytes sent (236 KB/s)
+[396] 131308 bytes sent (131308 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[392] request path: tsnemap2D_mouse_p64_t0_7.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[396] 262380 bytes sent (262380 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[396] 393452 bytes sent (393452 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[396] 524524 bytes sent (524524 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[396] 655596 bytes sent (655596 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[396] 786668 bytes sent (786668 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[396] 917740 bytes sent (917740 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[396] 1048812 bytes sent (1048812 KB/s)
+[396] 1179884 bytes sent (1179884 KB/s)
+[396] 1310956 bytes sent (1310956 KB/s)
+[396] 1398608 bytes sent (1398608 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 2
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1101843 bytes sent (1101843 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: 
+[392] 218 bytes sent (218 KB/s)
+[392] 4608 bytes sent (4608 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: demo.css
+[392] 217 bytes sent (217 KB/s)
+[392] 3644 bytes sent (3644 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: annstyle.css
+[392] 215 bytes sent (215 KB/s)
+[392] 242 bytes sent (242 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: scripts/X/utils/xtk.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 2
+[396] request path: scripts/webix/webix.js
+[396] 235 bytes sent (235 KB/s)
+[392] 524523 bytes sent (524523 KB/s)
+[396] 131307 bytes sent (131307 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 3
+[392] 655595 bytes sent (655595 KB/s)
+[364] request path: scripts/webix/webix.css
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 4
+[392] 786667 bytes sent (786667 KB/s)
+[396] 262379 bytes sent (262379 KB/s)
+[364] 219 bytes sent (219 KB/s)
+[344] request path: scripts/kdTree.js
+[392] 792833 bytes sent (792833 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 4
+[396] 393451 bytes sent (393451 KB/s)
+[364] 125838 bytes sent (125838 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 3
+[344] 234 bytes sent (234 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 3
+[364] request path: demo_seperate_objects.js
+[396] 435744 bytes sent (435744 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 3
+[344] 13976 bytes sent (13976 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[364] 234 bytes sent (234 KB/s)
+[364] 39408 bytes sent (39408 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: favicon.ico
+[364] 232 bytes sent (232 KB/s)
+[364] 550 bytes sent (550 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: ontology.json
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[364] 262379 bytes sent (262379 KB/s)
+[364] 393451 bytes sent (393451 KB/s)
+[364] 524523 bytes sent (524523 KB/s)
+[364] 655595 bytes sent (655595 KB/s)
+[364] 786667 bytes sent (786667 KB/s)
+[364] 877817 bytes sent (877817 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: voxel.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 2
+[364] 262380 bytes sent (262380 KB/s)
+[344] request path: tsnemap2D_mouse_p64_t0_7.json
+[364] 393452 bytes sent (393452 KB/s)
+[344] 236 bytes sent (236 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[344] 131308 bytes sent (131308 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[344] 262380 bytes sent (262380 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[344] 393452 bytes sent (393452 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[344] 524524 bytes sent (524524 KB/s)
+[344] 655596 bytes sent (655596 KB/s)
+[344] 786668 bytes sent (786668 KB/s)
+[344] 917740 bytes sent (917740 KB/s)
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1179884 bytes sent (1179884 KB/s)
+[364] 1310956 bytes sent (1310956 KB/s)
+[364] 1398608 bytes sent (1398608 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[344] 1048812 bytes sent (1048812 KB/s)
+[344] 1101843 bytes sent (1101843 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: coords.json
+[344] 236 bytes sent (236 KB/s)
+[344] 131308 bytes sent (131308 KB/s)
+[344] 262380 bytes sent (262380 KB/s)
+[344] 393452 bytes sent (393452 KB/s)
+[344] 524524 bytes sent (524524 KB/s)
+[344] 655596 bytes sent (655596 KB/s)
+[344] 786668 bytes sent (786668 KB/s)
+[344] 917740 bytes sent (917740 KB/s)
+[344] 1048812 bytes sent (1048812 KB/s)
+[344] 1179884 bytes sent (1179884 KB/s)
+[344] 1310956 bytes sent (1310956 KB/s)
+[344] 1442028 bytes sent (1442028 KB/s)
+[344] 1573100 bytes sent (1573100 KB/s)
+[344] 1580446 bytes sent (1580446 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: favicon.ico
+[344] 232 bytes sent (232 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[344] 550 bytes sent (550 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[364] request path: 
+[364] 218 bytes sent (218 KB/s)
+[364] 4608 bytes sent (4608 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: demo.css
+[364] 217 bytes sent (217 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 2
+[364] 3640 bytes sent (3640 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[400] request path: annstyle.css
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 2
+[344] request path: scripts/X/utils/xtk.js
+[400] 215 bytes sent (215 KB/s)
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 3
+[344] 235 bytes sent (235 KB/s)
+[400] 242 bytes sent (242 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 3
+[396] request path: scripts/webix/webix.js
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 3
+[344] 131307 bytes sent (131307 KB/s)
+[364] request path: scripts/webix/webix.css
+[396] 235 bytes sent (235 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 4
+[364] 219 bytes sent (219 KB/s)
+[396] 131307 bytes sent (131307 KB/s)
+[392] request path: scripts/kdTree.js
+[364] 125838 bytes sent (125838 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 4
+[392] 234 bytes sent (234 KB/s)
+[392] 13976 bytes sent (13976 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 3
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 4
+[392] request path: demo_seperate_objects.js
+[392] 234 bytes sent (234 KB/s)
+[392] 39408 bytes sent (39408 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 4
+[396] 262379 bytes sent (262379 KB/s)
+[344] 262379 bytes sent (262379 KB/s)
+[344] 393451 bytes sent (393451 KB/s)
+[396] 393451 bytes sent (393451 KB/s)
+[344] 524523 bytes sent (524523 KB/s)
+[396] 435744 bytes sent (435744 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 3
+[344] 655595 bytes sent (655595 KB/s)
+[344] 786667 bytes sent (786667 KB/s)
+[344] 792833 bytes sent (792833 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[408] request path: favicon.ico
+[408] 232 bytes sent (0 KB/s)
+[408] 550 bytes sent (0 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: favicon.ico
+[408] 232 bytes sent (232 KB/s)
+[408] 550 bytes sent (550 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: ontology.json
+[408] 235 bytes sent (235 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[408] 393451 bytes sent (393451 KB/s)
+[408] 524523 bytes sent (524523 KB/s)
+[408] 655595 bytes sent (655595 KB/s)
+[408] 786667 bytes sent (786667 KB/s)
+[408] 877817 bytes sent (877817 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: 
+[408] 218 bytes sent (218 KB/s)
+[408] 4608 bytes sent (4608 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: demo.css
+[408] 217 bytes sent (217 KB/s)
+[408] 3640 bytes sent (3640 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: annstyle.css
+[408] 215 bytes sent (215 KB/s)
+[408] 242 bytes sent (242 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: scripts/X/utils/xtk.js
+[408] 235 bytes sent (235 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[408] 393451 bytes sent (393451 KB/s)
+[408] 524523 bytes sent (524523 KB/s)
+[408] 655595 bytes sent (655595 KB/s)
+[408] 786667 bytes sent (786667 KB/s)
+[408] 792833 bytes sent (792833 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: scripts/webix/webix.js
+[408] 235 bytes sent (235 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[408] 393451 bytes sent (393451 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: scripts/webix/webix.css
+[368] 219 bytes sent (219 KB/s)
+[368] 125838 bytes sent (125838 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: scripts/kdTree.js
+[368] 234 bytes sent (234 KB/s)
+[368] 13976 bytes sent (13976 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: demo_seperate_objects.js
+[368] 234 bytes sent (234 KB/s)
+[368] 39408 bytes sent (39408 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[408] 435744 bytes sent (435744 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: scripts/webix/webix.js
+[408] 235 bytes sent (235 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[408] 393451 bytes sent (393451 KB/s)
+[408] 435744 bytes sent (435744 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: demo_seperate_objects.js
+[408] 234 bytes sent (234 KB/s)
+[408] 39408 bytes sent (39408 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: favicon.ico
+[408] 232 bytes sent (232 KB/s)
+[408] 550 bytes sent (550 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: ontology.json
+[408] 235 bytes sent (235 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[408] 393451 bytes sent (393451 KB/s)
+[408] 524523 bytes sent (524523 KB/s)
+[408] 655595 bytes sent (655595 KB/s)
+[408] 786667 bytes sent (786667 KB/s)
+[408] 877817 bytes sent (877817 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: voxel.json
+[408] 236 bytes sent (236 KB/s)
+[408] 131308 bytes sent (131308 KB/s)
+[408] 262380 bytes sent (262380 KB/s)
+[408] 393452 bytes sent (393452 KB/s)
+[408] 524524 bytes sent (524524 KB/s)
+[408] 655596 bytes sent (655596 KB/s)
+[408] 786668 bytes sent (786668 KB/s)
+[408] 917740 bytes sent (917740 KB/s)
+[408] 1048812 bytes sent (1048812 KB/s)
+[408] 1179884 bytes sent (1179884 KB/s)
+[408] 1310956 bytes sent (1310956 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: tsnemap2D_mouse_p64_t0_7.json
+[368] 236 bytes sent (236 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[408] 1398608 bytes sent (1398608 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 2
+[368] 262380 bytes sent (262380 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[368] 786668 bytes sent (786668 KB/s)
+[368] 917740 bytes sent (917740 KB/s)
+[368] 1048812 bytes sent (1048812 KB/s)
+[368] 1101843 bytes sent (1101843 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: coords.json
+[368] 236 bytes sent (236 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[368] 524524 bytes sent (511 KB/s)
+[368] 655596 bytes sent (639 KB/s)
+[368] 786668 bytes sent (767 KB/s)
+[368] 917740 bytes sent (895 KB/s)
+[368] 1048812 bytes sent (1023 KB/s)
+[368] 1179884 bytes sent (1151 KB/s)
+[368] 1310956 bytes sent (1278 KB/s)
+[368] 1442028 bytes sent (1406 KB/s)
+[368] 1573100 bytes sent (1534 KB/s)
+[368] 1580446 bytes sent (1541 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: favicon.ico
+[368] 232 bytes sent (232 KB/s)
+[368] 550 bytes sent (550 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: 
+[368] 218 bytes sent (218 KB/s)
+[368] 4608 bytes sent (4608 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: demo.css
+[368] 217 bytes sent (217 KB/s)
+[368] 3640 bytes sent (3640 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: annstyle.css
+[368] 215 bytes sent (215 KB/s)
+[368] 242 bytes sent (242 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: scripts/X/utils/xtk.js
+[368] 235 bytes sent (235 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 2
+[368] 262379 bytes sent (262379 KB/s)
+[408] request path: scripts/webix/webix.js
+[408] 235 bytes sent (235 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 3
+[408] 131307 bytes sent (131307 KB/s)
+[400] request path: scripts/webix/webix.css
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 4
+[368] 393451 bytes sent (393451 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[400] 219 bytes sent (219 KB/s)
+[364] request path: scripts/kdTree.js
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 5
+[368] 524523 bytes sent (524523 KB/s)
+[408] 393451 bytes sent (393451 KB/s)
+[400] 125838 bytes sent (125838 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 5
+[364] 234 bytes sent (234 KB/s)
+[388] request path: demo_seperate_objects.js
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 5
+[368] 655595 bytes sent (655595 KB/s)
+[408] 435744 bytes sent (435744 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 5
+[364] 13976 bytes sent (13976 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 4
+[388] 234 bytes sent (234 KB/s)
+[368] 786667 bytes sent (786667 KB/s)
+[388] 39408 bytes sent (39408 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 3
+[368] 792833 bytes sent (792833 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[392] request path: favicon.ico
+[392] 232 bytes sent (0 KB/s)
+[392] 550 bytes sent (0 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: favicon.ico
+[392] 232 bytes sent (232 KB/s)
+[392] 550 bytes sent (550 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: ontology.json
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[392] 524523 bytes sent (524523 KB/s)
+[392] 655595 bytes sent (655595 KB/s)
+[392] 786667 bytes sent (786667 KB/s)
+[392] 877817 bytes sent (877817 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: voxel.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 2
+[392] 262380 bytes sent (262380 KB/s)
+[396] request path: tsnemap2D_mouse_p32_t0_7.json
+[392] 393452 bytes sent (393452 KB/s)
+[396] 236 bytes sent (236 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[396] 131308 bytes sent (131308 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[396] 262380 bytes sent (262380 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[396] 393452 bytes sent (393452 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[396] 524524 bytes sent (524524 KB/s)
+[396] 655596 bytes sent (655596 KB/s)
+[396] 786668 bytes sent (786668 KB/s)
+[396] 917740 bytes sent (917740 KB/s)
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1179884 bytes sent (1179884 KB/s)
+[392] 1310956 bytes sent (1310956 KB/s)
+[392] 1398608 bytes sent (1398608 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[396] 1048812 bytes sent (1048812 KB/s)
+[396] 1108293 bytes sent (1108293 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: coords.json
+[396] 236 bytes sent (236 KB/s)
+[396] 131308 bytes sent (131308 KB/s)
+[396] 262380 bytes sent (262380 KB/s)
+[396] 393452 bytes sent (393452 KB/s)
+[396] 524524 bytes sent (524524 KB/s)
+[396] 655596 bytes sent (655596 KB/s)
+[396] 786668 bytes sent (786668 KB/s)
+[396] 917740 bytes sent (917740 KB/s)
+[396] 1048812 bytes sent (1048812 KB/s)
+[396] 1179884 bytes sent (1179884 KB/s)
+[396] 1310956 bytes sent (1310956 KB/s)
+[396] 1442028 bytes sent (1442028 KB/s)
+[396] 1573100 bytes sent (1573100 KB/s)
+[396] 1580446 bytes sent (1580446 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: 
+[396] 218 bytes sent (218 KB/s)
+[396] 4608 bytes sent (4608 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: demo.css
+[396] 217 bytes sent (217 KB/s)
+[396] 3640 bytes sent (3640 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: annstyle.css
+[396] 215 bytes sent (215 KB/s)
+[396] 242 bytes sent (242 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: scripts/X/utils/xtk.js
+[396] 235 bytes sent (235 KB/s)
+[396] 131307 bytes sent (131307 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[396] 262379 bytes sent (262379 KB/s)
+[392] request path: scripts/webix/webix.js
+[396] 393451 bytes sent (393451 KB/s)
+[392] 235 bytes sent (235 KB/s)
+[396] 524523 bytes sent (524523 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 3
+[400] request path: scripts/webix/webix.css
+[400] 219 bytes sent (219 KB/s)
+[400] 125838 bytes sent (125838 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 3
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 3
+[400] request path: scripts/kdTree.js
+[396] 655595 bytes sent (655595 KB/s)
+[400] 234 bytes sent (234 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[400] 13976 bytes sent (13976 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 3
+[396] 786667 bytes sent (786667 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 3
+[396] 792833 bytes sent (792833 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 3
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 3
+[400] request path: demo_seperate_objects.js
+[392] 435744 bytes sent (435744 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[400] 234 bytes sent (234 KB/s)
+[400] 39900 bytes sent (39900 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 2
+[396] request path: favicon.ico
+[396] 232 bytes sent (0 KB/s)
+[396] 550 bytes sent (0 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: 
+[396] 218 bytes sent (218 KB/s)
+[396] 4608 bytes sent (4608 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: demo.css
+[396] 217 bytes sent (217 KB/s)
+[396] 3640 bytes sent (3640 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: annstyle.css
+[396] 215 bytes sent (215 KB/s)
+[396] 242 bytes sent (242 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: scripts/X/utils/xtk.js
+[396] 235 bytes sent (235 KB/s)
+[396] 131307 bytes sent (131307 KB/s)
+[396] 262379 bytes sent (262379 KB/s)
+[396] 393451 bytes sent (393451 KB/s)
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 2
+[388] request path: scripts/webix/webix.js
+[388] 235 bytes sent (235 KB/s)
+[388] 131307 bytes sent (131307 KB/s)
+[396] 524523 bytes sent (524523 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 3
+[368] request path: scripts/webix/webix.css
+[368] 219 bytes sent (219 KB/s)
+[388] 262379 bytes sent (262379 KB/s)
+[368] 125838 bytes sent (125838 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 3
+[396] 655595 bytes sent (655595 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 3
+[368] request path: scripts/kdTree.js
+[368] 234 bytes sent (234 KB/s)
+[368] 13976 bytes sent (13976 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 3
+[396] 786667 bytes sent (786667 KB/s)
+[388] 393451 bytes sent (393451 KB/s)
+[396] 792833 bytes sent (792833 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 2
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 2
+[388] 435744 bytes sent (435744 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 2
+[396] request path: demo_seperate_objects.js
+[396] 234 bytes sent (234 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[396] 39899 bytes sent (39899 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 2
+[392] request path: favicon.ico
+[392] 232 bytes sent (0 KB/s)
+[392] 550 bytes sent (0 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: ontology.json
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[392] 524523 bytes sent (524523 KB/s)
+[392] 655595 bytes sent (655595 KB/s)
+[392] 786667 bytes sent (786667 KB/s)
+[392] 877817 bytes sent (877817 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: voxel.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 2
+[388] request path: tsnemap2D_mouse_p64_t0_7.json
+[388] 236 bytes sent (236 KB/s)
+[388] 131308 bytes sent (131308 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[388] 262380 bytes sent (262380 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[388] 393452 bytes sent (393452 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[388] 524524 bytes sent (524524 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[388] 655596 bytes sent (655596 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[388] 786668 bytes sent (786668 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[388] 917740 bytes sent (917740 KB/s)
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1179884 bytes sent (1179884 KB/s)
+[392] 1310956 bytes sent (1310956 KB/s)
+[392] 1398608 bytes sent (1398608 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[388] 1048812 bytes sent (1048812 KB/s)
+[388] 1101843 bytes sent (1101843 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: 
+[388] 218 bytes sent (218 KB/s)
+[388] 4608 bytes sent (4608 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: demo.css
+[388] 217 bytes sent (217 KB/s)
+[388] 3640 bytes sent (3640 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: annstyle.css
+[388] 215 bytes sent (215 KB/s)
+[388] 242 bytes sent (242 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: scripts/X/utils/xtk.js
+[388] 235 bytes sent (235 KB/s)
+[388] 131307 bytes sent (131307 KB/s)
+[388] 262379 bytes sent (262379 KB/s)
+[388] 393451 bytes sent (393451 KB/s)
+[388] 524523 bytes sent (524523 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[392] request path: scripts/webix/webix.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[388] 655595 bytes sent (655595 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 3
+[368] request path: scripts/webix/webix.css
+[368] 219 bytes sent (219 KB/s)
+[368] 125838 bytes sent (125838 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 3
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 3
+[388] 786667 bytes sent (786667 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 4
+[368] request path: scripts/kdTree.js
+[368] 234 bytes sent (234 KB/s)
+[368] 13976 bytes sent (13976 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 4
+[388] 792833 bytes sent (792833 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 3
+[392] 393451 bytes sent (393451 KB/s)
+[364] request path: demo_seperate_objects.js
+[392] 435744 bytes sent (435744 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[364] 234 bytes sent (234 KB/s)
+[364] 39903 bytes sent (39903 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: favicon.ico
+[364] 232 bytes sent (232 KB/s)
+[364] 550 bytes sent (550 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: ontology.json
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[364] 262379 bytes sent (262379 KB/s)
+[364] 393451 bytes sent (393451 KB/s)
+[364] 524523 bytes sent (524523 KB/s)
+[364] 655595 bytes sent (655595 KB/s)
+[364] 786667 bytes sent (786667 KB/s)
+[364] 877817 bytes sent (877817 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: 
+[364] 218 bytes sent (218 KB/s)
+[364] 4608 bytes sent (4608 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: demo.css
+[364] 217 bytes sent (217 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[364] 3659 bytes sent (3659 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[392] request path: annstyle.css
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 2
+[388] request path: scripts/X/utils/xtk.js
+[392] 215 bytes sent (215 KB/s)
+[388] 235 bytes sent (235 KB/s)
+[392] 242 bytes sent (242 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[388] 131307 bytes sent (131307 KB/s)
+[388] 262379 bytes sent (262379 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[388] 393451 bytes sent (393451 KB/s)
+[392] request path: scripts/webix/webix.js
+[392] 235 bytes sent (235 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 3
+[388] 524523 bytes sent (524523 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[400] request path: scripts/webix/webix.css
+[400] 219 bytes sent (219 KB/s)
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 4
+[400] 125838 bytes sent (125838 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 4
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 4
+[168] request path: scripts/kdTree.js
+[168] 234 bytes sent (234 KB/s)
+[168] 13976 bytes sent (13976 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 4
+[388] 655595 bytes sent (655595 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[400] request path: demo_seperate_objects.js
+[388] 786667 bytes sent (786667 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[400] 234 bytes sent (234 KB/s)
+[388] 792833 bytes sent (792833 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 3
+[392] 435744 bytes sent (435744 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[400] 39903 bytes sent (39903 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: favicon.ico
+[400] 232 bytes sent (232 KB/s)
+[400] 550 bytes sent (550 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: ontology.json
+[400] 235 bytes sent (235 KB/s)
+[400] 131307 bytes sent (131307 KB/s)
+[400] 262379 bytes sent (262379 KB/s)
+[400] 393451 bytes sent (393451 KB/s)
+[400] 524523 bytes sent (524523 KB/s)
+[400] 655595 bytes sent (655595 KB/s)
+[400] 786667 bytes sent (786667 KB/s)
+[400] 877817 bytes sent (877817 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: voxel.json
+[400] 236 bytes sent (236 KB/s)
+[400] 131308 bytes sent (131308 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[392] request path: tsnemap2D_mouse_p64_t0_7.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[400] 262380 bytes sent (262380 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[400] 393452 bytes sent (393452 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[400] 524524 bytes sent (524524 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[400] 655596 bytes sent (655596 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[400] 786668 bytes sent (786668 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[400] 917740 bytes sent (917740 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[400] 1048812 bytes sent (1048812 KB/s)
+[400] 1179884 bytes sent (1179884 KB/s)
+[400] 1310956 bytes sent (1310956 KB/s)
+[400] 1398608 bytes sent (1398608 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 2
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1101843 bytes sent (1101843 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: coords.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1179884 bytes sent (1179884 KB/s)
+[392] 1310956 bytes sent (1310956 KB/s)
+[392] 1442028 bytes sent (1442028 KB/s)
+[392] 1573100 bytes sent (1573100 KB/s)
+[392] 1580446 bytes sent (1580446 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: 
+[392] 218 bytes sent (218 KB/s)
+[392] 4608 bytes sent (4608 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: demo.css
+[392] 217 bytes sent (217 KB/s)
+[392] 3659 bytes sent (3659 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: annstyle.css
+[392] 215 bytes sent (215 KB/s)
+[392] 242 bytes sent (242 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: scripts/X/utils/xtk.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 2
+[400] request path: scripts/webix/webix.js
+[392] 393451 bytes sent (393451 KB/s)
+[400] 235 bytes sent (235 KB/s)
+[400] 131307 bytes sent (131307 KB/s)
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 3
+[392] 524523 bytes sent (524523 KB/s)
+[388] request path: scripts/webix/webix.css
+[388] 219 bytes sent (219 KB/s)
+[388] 125838 bytes sent (125838 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 3
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 3
+[400] 262379 bytes sent (262379 KB/s)
+[388] request path: scripts/kdTree.js
+[388] 234 bytes sent (234 KB/s)
+[392] 655595 bytes sent (655595 KB/s)
+[388] 13976 bytes sent (13976 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 3
+[392] 786667 bytes sent (786667 KB/s)
+[400] 393451 bytes sent (393451 KB/s)
+[392] 792833 bytes sent (792833 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 3
+[400] 435744 bytes sent (435744 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 3
+[392] request path: demo_seperate_objects.js
+[392] 234 bytes sent (234 KB/s)
+[392] 39928 bytes sent (39928 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[364] request path: favicon.ico
+[364] 232 bytes sent (0 KB/s)
+[364] 550 bytes sent (0 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: ontology.json
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[364] 262379 bytes sent (262379 KB/s)
+[364] 393451 bytes sent (393451 KB/s)
+[364] 524523 bytes sent (524523 KB/s)
+[364] 655595 bytes sent (655595 KB/s)
+[364] 786667 bytes sent (786667 KB/s)
+[364] 877817 bytes sent (877817 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: voxel.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 2
+[400] request path: tsnemap2D_mouse_p64_t0_7.json
+[400] 236 bytes sent (236 KB/s)
+[400] 131308 bytes sent (131308 KB/s)
+[364] 262380 bytes sent (262380 KB/s)
+[400] 262380 bytes sent (262380 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[400] 393452 bytes sent (393452 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[400] 524524 bytes sent (524524 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[400] 655596 bytes sent (655596 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[400] 786668 bytes sent (786668 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[400] 917740 bytes sent (917740 KB/s)
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1179884 bytes sent (1179884 KB/s)
+[364] 1310956 bytes sent (1310956 KB/s)
+[364] 1398608 bytes sent (1398608 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[400] 1048812 bytes sent (1048812 KB/s)
+[400] 1101843 bytes sent (1101843 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: coords.json
+[400] 236 bytes sent (236 KB/s)
+[400] 131308 bytes sent (131308 KB/s)
+[400] 262380 bytes sent (262380 KB/s)
+[400] 393452 bytes sent (393452 KB/s)
+[400] 524524 bytes sent (524524 KB/s)
+[400] 655596 bytes sent (655596 KB/s)
+[400] 786668 bytes sent (786668 KB/s)
+[400] 917740 bytes sent (917740 KB/s)
+[400] 1048812 bytes sent (1048812 KB/s)
+[400] 1179884 bytes sent (1179884 KB/s)
+[400] 1310956 bytes sent (1310956 KB/s)
+[400] 1442028 bytes sent (1442028 KB/s)
+[400] 1573100 bytes sent (1573100 KB/s)
+[400] 1580446 bytes sent (1580446 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: 
+[400] 218 bytes sent (218 KB/s)
+[400] 4608 bytes sent (4608 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: demo.css
+[400] 217 bytes sent (217 KB/s)
+[400] 3659 bytes sent (3659 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: annstyle.css
+[400] 215 bytes sent (215 KB/s)
+[400] 242 bytes sent (242 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: scripts/X/utils/xtk.js
+[400] 235 bytes sent (235 KB/s)
+[400] 131307 bytes sent (131307 KB/s)
+[400] 262379 bytes sent (262379 KB/s)
+[400] 393451 bytes sent (393451 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[364] request path: scripts/webix/webix.js
+[400] 524523 bytes sent (524523 KB/s)
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 3
+[388] request path: scripts/webix/webix.css
+[400] 655595 bytes sent (655595 KB/s)
+[388] 219 bytes sent (219 KB/s)
+[388] 125838 bytes sent (125838 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 3
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 3
+[364] 262379 bytes sent (262379 KB/s)
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 4
+[388] request path: scripts/kdTree.js
+[388] 234 bytes sent (234 KB/s)
+[388] 13976 bytes sent (13976 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 4
+[400] 786667 bytes sent (786667 KB/s)
+[400] 792833 bytes sent (792833 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 3
+[396] request path: demo_seperate_objects.js
+[364] 393451 bytes sent (393451 KB/s)
+[396] 234 bytes sent (234 KB/s)
+[364] 435744 bytes sent (435744 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[396] 40102 bytes sent (40102 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: favicon.ico
+[396] 232 bytes sent (232 KB/s)
+[396] 550 bytes sent (550 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: ontology.json
+[396] 235 bytes sent (235 KB/s)
+[396] 131307 bytes sent (131307 KB/s)
+[396] 262379 bytes sent (262379 KB/s)
+[396] 393451 bytes sent (393451 KB/s)
+[396] 524523 bytes sent (524523 KB/s)
+[396] 655595 bytes sent (655595 KB/s)
+[396] 786667 bytes sent (786667 KB/s)
+[396] 877817 bytes sent (877817 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: voxel.json
+[396] 236 bytes sent (236 KB/s)
+[396] 131308 bytes sent (131308 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[364] request path: tsnemap2D_mouse_p64_t0_7.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[396] 262380 bytes sent (262380 KB/s)
+[364] 262380 bytes sent (262380 KB/s)
+[396] 393452 bytes sent (393452 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[396] 524524 bytes sent (524524 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[396] 655596 bytes sent (655596 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[396] 786668 bytes sent (786668 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[396] 917740 bytes sent (917740 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[396] 1048812 bytes sent (1048812 KB/s)
+[396] 1179884 bytes sent (1179884 KB/s)
+[396] 1310956 bytes sent (1310956 KB/s)
+[396] 1398608 bytes sent (1398608 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 2
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1101843 bytes sent (1101843 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: coords.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[364] 262380 bytes sent (262380 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1179884 bytes sent (1179884 KB/s)
+[364] 1310956 bytes sent (1310956 KB/s)
+[364] 1442028 bytes sent (1442028 KB/s)
+[364] 1573100 bytes sent (1573100 KB/s)
+[364] 1580446 bytes sent (1580446 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: favicon.ico
+[364] 232 bytes sent (232 KB/s)
+[364] 550 bytes sent (550 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: 
+[364] 218 bytes sent (218 KB/s)
+[364] 4608 bytes sent (4608 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: demo.css
+[364] 217 bytes sent (217 KB/s)
+[364] 3659 bytes sent (3659 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: annstyle.css
+[364] 215 bytes sent (215 KB/s)
+[364] 242 bytes sent (242 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: scripts/X/utils/xtk.js
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 2
+[396] request path: scripts/webix/webix.js
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 3
+[396] 235 bytes sent (235 KB/s)
+[168] request path: scripts/webix/webix.css
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 4
+[396] 131307 bytes sent (131307 KB/s)
+[168] 219 bytes sent (219 KB/s)
+[368] request path: scripts/kdTree.js
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 5
+[168] 125838 bytes sent (125838 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 5
+[368] 234 bytes sent (234 KB/s)
+[344] request path: demo_seperate_objects.js
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 5
+[364] 262379 bytes sent (262379 KB/s)
+[396] 262379 bytes sent (262379 KB/s)
+[368] 13976 bytes sent (13976 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 5
+[344] 234 bytes sent (234 KB/s)
+[344] 40107 bytes sent (40107 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 4
+[364] 393451 bytes sent (393451 KB/s)
+[364] 524523 bytes sent (524523 KB/s)
+[396] 393451 bytes sent (393451 KB/s)
+[364] 655595 bytes sent (655595 KB/s)
+[364] 786667 bytes sent (786667 KB/s)
+[396] 435744 bytes sent (435744 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 3
+[364] 792833 bytes sent (792833 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[388] request path: favicon.ico
+[388] 232 bytes sent (0 KB/s)
+[388] 550 bytes sent (0 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: favicon.ico
+[388] 232 bytes sent (232 KB/s)
+[388] 550 bytes sent (550 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: ontology.json
+[388] 235 bytes sent (235 KB/s)
+[388] 131307 bytes sent (131307 KB/s)
+[388] 262379 bytes sent (262379 KB/s)
+[388] 393451 bytes sent (393451 KB/s)
+[388] 524523 bytes sent (524523 KB/s)
+[388] 655595 bytes sent (655595 KB/s)
+[388] 786667 bytes sent (786667 KB/s)
+[388] 877817 bytes sent (877817 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: voxel.json
+[388] 236 bytes sent (236 KB/s)
+[388] 131308 bytes sent (131308 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[392] request path: tsnemap2D_mouse_p64_t0_7.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[388] 262380 bytes sent (262380 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[388] 393452 bytes sent (393452 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[388] 524524 bytes sent (524524 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[388] 655596 bytes sent (655596 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[388] 786668 bytes sent (786668 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[388] 917740 bytes sent (917740 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[388] 1048812 bytes sent (1048812 KB/s)
+[388] 1179884 bytes sent (1179884 KB/s)
+[388] 1310956 bytes sent (1310956 KB/s)
+[388] 1398608 bytes sent (1398608 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 2
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1101843 bytes sent (1101843 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: coords.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1179884 bytes sent (1179884 KB/s)
+[392] 1310956 bytes sent (1310956 KB/s)
+[392] 1442028 bytes sent (1442028 KB/s)
+[392] 1573100 bytes sent (1573100 KB/s)
+[392] 1580446 bytes sent (1580446 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: 
+[392] 218 bytes sent (218 KB/s)
+[392] 4608 bytes sent (4608 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: demo.css
+[392] 217 bytes sent (217 KB/s)
+[392] 3659 bytes sent (3659 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: annstyle.css
+[392] 215 bytes sent (215 KB/s)
+[392] 242 bytes sent (242 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: scripts/X/utils/xtk.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 2
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[392] 524523 bytes sent (524523 KB/s)
+[388] request path: scripts/webix/webix.js
+[388] 235 bytes sent (235 KB/s)
+[388] 131307 bytes sent (131307 KB/s)
+[392] 655595 bytes sent (655595 KB/s)
+[388] 262379 bytes sent (262379 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 3
+[400] request path: scripts/webix/webix.css
+[400] 219 bytes sent (219 KB/s)
+[400] 125838 bytes sent (125838 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 3
+[392] 786667 bytes sent (786667 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 3
+[400] request path: scripts/kdTree.js
+[388] 393451 bytes sent (393451 KB/s)
+[400] 234 bytes sent (234 KB/s)
+[392] 792833 bytes sent (792833 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[400] 13976 bytes sent (13976 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 2
+[388] 435744 bytes sent (435744 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 1
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 1
+[388] request path: demo_seperate_objects.js
+[388] 234 bytes sent (234 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 2
+[388] 40182 bytes sent (40182 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 2
+[400] request path: favicon.ico
+[400] 232 bytes sent (0 KB/s)
+[400] 550 bytes sent (0 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: ontology.json
+[400] 235 bytes sent (235 KB/s)
+[400] 131307 bytes sent (131307 KB/s)
+[400] 262379 bytes sent (262379 KB/s)
+[400] 393451 bytes sent (393451 KB/s)
+[400] 524523 bytes sent (524523 KB/s)
+[400] 655595 bytes sent (655595 KB/s)
+[400] 786667 bytes sent (786667 KB/s)
+[400] 877817 bytes sent (877817 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 1
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 1
+[400] request path: voxel.json
+[400] 236 bytes sent (236 KB/s)
+[400] 131308 bytes sent (131308 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[364] request path: tsnemap2D_mouse_p64_t0_7.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[400] 262380 bytes sent (262380 KB/s)
+[364] 262380 bytes sent (262380 KB/s)
+[400] 393452 bytes sent (393452 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[400] 524524 bytes sent (524524 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[400] 655596 bytes sent (655596 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[400] 786668 bytes sent (786668 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[400] 917740 bytes sent (917740 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[400] 1048812 bytes sent (1048812 KB/s)
+[400] 1179884 bytes sent (1179884 KB/s)
+[400] 1310956 bytes sent (1310956 KB/s)
+[400] 1398608 bytes sent (1398608 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 2
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1101843 bytes sent (1101843 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: coords.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[364] 262380 bytes sent (262380 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1179884 bytes sent (1179884 KB/s)
+[364] 1310956 bytes sent (1310956 KB/s)
+[364] 1442028 bytes sent (1442028 KB/s)
+[364] 1573100 bytes sent (1573100 KB/s)
+[364] 1580446 bytes sent (1580446 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: 
+[364] 218 bytes sent (218 KB/s)
+[364] 4608 bytes sent (4608 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: demo.css
+[364] 217 bytes sent (217 KB/s)
+[364] 3659 bytes sent (3659 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: annstyle.css
+[364] 215 bytes sent (215 KB/s)
+[364] 242 bytes sent (242 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: scripts/X/utils/xtk.js
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[364] 262379 bytes sent (262379 KB/s)
+[364] 393451 bytes sent (393451 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 2
+[400] request path: scripts/webix/webix.js
+[400] 235 bytes sent (235 KB/s)
+[400] 131307 bytes sent (131307 KB/s)
+[364] 524523 bytes sent (524523 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 3
+[392] request path: scripts/webix/webix.css
+[392] 219 bytes sent (219 KB/s)
+[392] 125838 bytes sent (125838 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 3
+[392] request path: scripts/kdTree.js
+[364] 655595 bytes sent (655595 KB/s)
+[400] 262379 bytes sent (262379 KB/s)
+[392] 234 bytes sent (234 KB/s)
+[392] 13976 bytes sent (13976 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[364] 786667 bytes sent (786667 KB/s)
+[400] 393451 bytes sent (393451 KB/s)
+[364] 792833 bytes sent (792833 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[364] request path: demo_seperate_objects.js
+[364] 234 bytes sent (234 KB/s)
+[400] 435744 bytes sent (435744 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 3
+[364] 40182 bytes sent (40182 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[344] request path: favicon.ico
+[344] 232 bytes sent (0 KB/s)
+[344] 550 bytes sent (0 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: ontology.json
+[344] 235 bytes sent (235 KB/s)
+[344] 131307 bytes sent (131307 KB/s)
+[344] 262379 bytes sent (262379 KB/s)
+[344] 393451 bytes sent (393451 KB/s)
+[344] 524523 bytes sent (524523 KB/s)
+[344] 655595 bytes sent (655595 KB/s)
+[344] 786667 bytes sent (786667 KB/s)
+[344] 877817 bytes sent (877817 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: voxel.json
+[344] 236 bytes sent (236 KB/s)
+[344] 131308 bytes sent (131308 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[392] request path: tsnemap2D_mouse_p64_t0_7.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[344] 262380 bytes sent (262380 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[344] 393452 bytes sent (393452 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[344] 524524 bytes sent (524524 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[344] 655596 bytes sent (655596 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[344] 786668 bytes sent (786668 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[344] 917740 bytes sent (917740 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[344] 1048812 bytes sent (1048812 KB/s)
+[344] 1179884 bytes sent (1179884 KB/s)
+[344] 1310956 bytes sent (1310956 KB/s)
+[344] 1398608 bytes sent (1398608 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1101843 bytes sent (1101843 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: coords.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1179884 bytes sent (1179884 KB/s)
+[392] 1310956 bytes sent (1310956 KB/s)
+[392] 1442028 bytes sent (1442028 KB/s)
+[392] 1573100 bytes sent (1573100 KB/s)
+[392] 1580446 bytes sent (1580446 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: 
+[392] 218 bytes sent (218 KB/s)
+[392] 4608 bytes sent (4608 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: demo.css
+[392] 217 bytes sent (217 KB/s)
+[392] 3659 bytes sent (3659 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: annstyle.css
+[392] 215 bytes sent (215 KB/s)
+[392] 242 bytes sent (242 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: scripts/X/utils/xtk.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[392] 524523 bytes sent (524523 KB/s)
+[392] 655595 bytes sent (655595 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 2
+[344] request path: scripts/webix/webix.js
+[344] 235 bytes sent (235 KB/s)
+[388] connection accepted
+[388] IP: 127.0.0.1
+Connected clients: 3
+[344] 131307 bytes sent (131307 KB/s)
+[392] 786667 bytes sent (786667 KB/s)
+[388] request path: scripts/webix/webix.css
+[344] 262379 bytes sent (262379 KB/s)
+[388] 219 bytes sent (219 KB/s)
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 4
+[392] 792833 bytes sent (792833 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 4
+[388] 125838 bytes sent (125838 KB/s)
+[388] socket closed after responded for 1 requests
+Connected clients: 3
+[168] request path: scripts/kdTree.js
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 3
+[396] request path: demo_seperate_objects.js
+[344] 393451 bytes sent (393451 KB/s)
+[168] 234 bytes sent (234 KB/s)
+[396] 234 bytes sent (234 KB/s)
+[344] 435744 bytes sent (435744 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 3
+[168] 13976 bytes sent (13976 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 2
+[396] 40495 bytes sent (40495 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: favicon.ico
+[396] 232 bytes sent (232 KB/s)
+[396] 550 bytes sent (550 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: ontology.json
+[396] 235 bytes sent (235 KB/s)
+[396] 131307 bytes sent (131307 KB/s)
+[396] 262379 bytes sent (262379 KB/s)
+[396] 393451 bytes sent (393451 KB/s)
+[396] 524523 bytes sent (524523 KB/s)
+[396] 655595 bytes sent (655595 KB/s)
+[396] 786667 bytes sent (786667 KB/s)
+[396] 877817 bytes sent (877817 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 1
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 1
+[396] request path: voxel.json
+[396] 236 bytes sent (236 KB/s)
+[396] 131308 bytes sent (131308 KB/s)
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 2
+[396] 262380 bytes sent (262380 KB/s)
+[168] request path: tsnemap2D_mouse_p64_t0_7.json
+[168] 236 bytes sent (236 KB/s)
+[168] 131308 bytes sent (131308 KB/s)
+[396] 393452 bytes sent (393452 KB/s)
+[168] 262380 bytes sent (262380 KB/s)
+[396] 524524 bytes sent (524524 KB/s)
+[168] 393452 bytes sent (393452 KB/s)
+[396] 655596 bytes sent (655596 KB/s)
+[168] 524524 bytes sent (524524 KB/s)
+[396] 786668 bytes sent (786668 KB/s)
+[168] 655596 bytes sent (655596 KB/s)
+[396] 917740 bytes sent (917740 KB/s)
+[168] 786668 bytes sent (786668 KB/s)
+[168] 917740 bytes sent (917740 KB/s)
+[396] 1048812 bytes sent (1048812 KB/s)
+[396] 1179884 bytes sent (1179884 KB/s)
+[396] 1310956 bytes sent (1310956 KB/s)
+[396] 1398608 bytes sent (1398608 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 2
+[168] 1048812 bytes sent (1048812 KB/s)
+[168] 1101843 bytes sent (1101843 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: 
+[168] 218 bytes sent (218 KB/s)
+[168] 4608 bytes sent (4608 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: demo.css
+[168] 217 bytes sent (217 KB/s)
+[168] 3659 bytes sent (3659 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: annstyle.css
+[168] 215 bytes sent (215 KB/s)
+[168] 242 bytes sent (242 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: scripts/X/utils/xtk.js
+[168] 235 bytes sent (235 KB/s)
+[168] 131307 bytes sent (131307 KB/s)
+[168] 262379 bytes sent (262379 KB/s)
+[168] 393451 bytes sent (393451 KB/s)
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 2
+[396] request path: scripts/webix/webix.js
+[396] 235 bytes sent (235 KB/s)
+[396] 131307 bytes sent (131307 KB/s)
+[168] 524523 bytes sent (524523 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[344] request path: scripts/webix/webix.css
+[344] 219 bytes sent (219 KB/s)
+[344] 125838 bytes sent (125838 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 3
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[396] 262379 bytes sent (262379 KB/s)
+[168] 655595 bytes sent (655595 KB/s)
+[344] request path: scripts/kdTree.js
+[344] 234 bytes sent (234 KB/s)
+[344] 13976 bytes sent (13976 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 3
+[168] 786667 bytes sent (786667 KB/s)
+[396] 393451 bytes sent (393451 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 4
+[168] 792833 bytes sent (792833 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 4
+[344] request path: demo_seperate_objects.js
+[396] 435744 bytes sent (435744 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 3
+[344] 234 bytes sent (234 KB/s)
+[344] 40495 bytes sent (40495 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[364] request path: favicon.ico
+[364] 232 bytes sent (0 KB/s)
+[364] 550 bytes sent (0 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: ontology.json
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[364] 262379 bytes sent (262379 KB/s)
+[364] 393451 bytes sent (393451 KB/s)
+[364] 524523 bytes sent (524523 KB/s)
+[364] 655595 bytes sent (655595 KB/s)
+[364] 786667 bytes sent (786667 KB/s)
+[364] 877817 bytes sent (877817 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: voxel.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 2
+[168] request path: tsnemap2D_mouse_p64_t0_7.json
+[168] 236 bytes sent (236 KB/s)
+[168] 131308 bytes sent (131308 KB/s)
+[364] 262380 bytes sent (262380 KB/s)
+[168] 262380 bytes sent (262380 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[168] 393452 bytes sent (393452 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[168] 524524 bytes sent (524524 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[168] 655596 bytes sent (655596 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[168] 786668 bytes sent (786668 KB/s)
+[168] 917740 bytes sent (917740 KB/s)
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1179884 bytes sent (1179884 KB/s)
+[364] 1310956 bytes sent (1310956 KB/s)
+[364] 1398608 bytes sent (1398608 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[168] 1048812 bytes sent (1048812 KB/s)
+[168] 1101843 bytes sent (1101843 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: 
+[168] 218 bytes sent (218 KB/s)
+[168] 4608 bytes sent (4608 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: demo.css
+[168] 217 bytes sent (217 KB/s)
+[168] 3659 bytes sent (3659 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: annstyle.css
+[168] 215 bytes sent (215 KB/s)
+[168] 242 bytes sent (242 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 1
+[168] connection accepted
+[168] IP: 127.0.0.1
+Connected clients: 1
+[168] request path: scripts/X/utils/xtk.js
+[168] 235 bytes sent (235 KB/s)
+[168] 131307 bytes sent (131307 KB/s)
+[168] 262379 bytes sent (262379 KB/s)
+[168] 393451 bytes sent (393451 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[364] request path: scripts/webix/webix.js
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 3
+[168] 524523 bytes sent (524523 KB/s)
+[364] 262379 bytes sent (262379 KB/s)
+[392] request path: scripts/webix/webix.css
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 4
+[392] 219 bytes sent (219 KB/s)
+[400] request path: scripts/kdTree.js
+[392] 125838 bytes sent (125838 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 4
+[400] 234 bytes sent (234 KB/s)
+[400] 13976 bytes sent (13976 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 3
+[168] 655595 bytes sent (655595 KB/s)
+[364] 393451 bytes sent (393451 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 3
+[168] 786667 bytes sent (786667 KB/s)
+[400] request path: demo_seperate_objects.js
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 4
+[168] 792833 bytes sent (792833 KB/s)
+[168] socket closed after responded for 1 requests
+Connected clients: 4
+[364] 435744 bytes sent (435744 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 3
+[400] 234 bytes sent (234 KB/s)
+[400] 40670 bytes sent (40670 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 2
+[392] request path: favicon.ico
+[392] 232 bytes sent (0 KB/s)
+[392] 550 bytes sent (0 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: ontology.json
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[392] 524523 bytes sent (524523 KB/s)
+[392] 655595 bytes sent (655595 KB/s)
+[392] 786667 bytes sent (786667 KB/s)
+[392] 877817 bytes sent (877817 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: voxel.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: tsnemap2D_mouse_p64_t0_7.json
+[368] 236 bytes sent (236 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[368] 393452 bytes sent (383 KB/s)
+[392] 524524 bytes sent (511 KB/s)
+[368] 524524 bytes sent (511 KB/s)
+[392] 655596 bytes sent (639 KB/s)
+[368] 655596 bytes sent (639 KB/s)
+[392] 786668 bytes sent (767 KB/s)
+[368] 786668 bytes sent (767 KB/s)
+[392] 917740 bytes sent (895 KB/s)
+[368] 917740 bytes sent (895 KB/s)
+[392] 1048812 bytes sent (1023 KB/s)
+[392] 1179884 bytes sent (1151 KB/s)
+[392] 1310956 bytes sent (1278 KB/s)
+[392] 1398608 bytes sent (1364 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[368] 1048812 bytes sent (1023 KB/s)
+[368] 1101843 bytes sent (1074 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: coords.json
+[368] 236 bytes sent (236 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[368] 786668 bytes sent (786668 KB/s)
+[368] 917740 bytes sent (917740 KB/s)
+[368] 1048812 bytes sent (1048812 KB/s)
+[368] 1179884 bytes sent (1179884 KB/s)
+[368] 1310956 bytes sent (1310956 KB/s)
+[368] 1442028 bytes sent (1442028 KB/s)
+[368] 1573100 bytes sent (1573100 KB/s)
+[368] 1580446 bytes sent (1580446 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: 
+[368] 218 bytes sent (218 KB/s)
+[368] 4608 bytes sent (4608 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: demo.css
+[368] 217 bytes sent (217 KB/s)
+[368] 3659 bytes sent (3659 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: annstyle.css
+[368] 215 bytes sent (215 KB/s)
+[368] 242 bytes sent (242 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: scripts/X/utils/xtk.js
+[368] 235 bytes sent (235 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[368] 262379 bytes sent (262379 KB/s)
+[368] 393451 bytes sent (393451 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[392] request path: scripts/webix/webix.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[368] 524523 bytes sent (524523 KB/s)
+[344] request path: scripts/webix/webix.css
+[344] 219 bytes sent (219 KB/s)
+[344] 125838 bytes sent (125838 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 3
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[344] request path: scripts/kdTree.js
+[392] 262379 bytes sent (262379 KB/s)
+[344] 234 bytes sent (234 KB/s)
+[368] 655595 bytes sent (655595 KB/s)
+[344] 13976 bytes sent (13976 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 3
+[368] 786667 bytes sent (786667 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[368] 792833 bytes sent (792833 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 3
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 3
+[344] request path: demo_seperate_objects.js
+[392] 435744 bytes sent (435744 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[344] 234 bytes sent (234 KB/s)
+[344] 40670 bytes sent (40670 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[368] request path: favicon.ico
+[368] 232 bytes sent (0 KB/s)
+[368] 550 bytes sent (0 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: ontology.json
+[368] 235 bytes sent (235 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[368] 262379 bytes sent (262379 KB/s)
+[368] 393451 bytes sent (393451 KB/s)
+[368] 524523 bytes sent (524523 KB/s)
+[368] 655595 bytes sent (655595 KB/s)
+[368] 786667 bytes sent (786667 KB/s)
+[368] 877817 bytes sent (877817 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: voxel.json
+[368] 236 bytes sent (236 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[364] request path: tsnemap2D_mouse_p64_t0_7.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[364] 262380 bytes sent (262380 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[368] 786668 bytes sent (786668 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[368] 917740 bytes sent (917740 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[368] 1048812 bytes sent (1048812 KB/s)
+[368] 1179884 bytes sent (1179884 KB/s)
+[368] 1310956 bytes sent (1310956 KB/s)
+[368] 1398608 bytes sent (1398608 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1101843 bytes sent (1101843 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: coords.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[364] 262380 bytes sent (262380 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1179884 bytes sent (1179884 KB/s)
+[364] 1310956 bytes sent (1310956 KB/s)
+[364] 1442028 bytes sent (1442028 KB/s)
+[364] 1573100 bytes sent (1573100 KB/s)
+[364] 1580446 bytes sent (1580446 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: voxel.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: tsnemap_mouse_p32_t0_7.json
+[364] 262380 bytes sent (262380 KB/s)
+[368] 236 bytes sent (236 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[364] 1048812 bytes sent (1048812 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[364] 1179884 bytes sent (1179884 KB/s)
+[368] 786668 bytes sent (786668 KB/s)
+[368] 917740 bytes sent (917740 KB/s)
+[364] 1310956 bytes sent (1310956 KB/s)
+[364] 1398608 bytes sent (1398608 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[368] 1048812 bytes sent (1048812 KB/s)
+[368] 1179884 bytes sent (1179884 KB/s)
+[368] 1310956 bytes sent (1310956 KB/s)
+[368] 1442028 bytes sent (1442028 KB/s)
+[368] 1573100 bytes sent (1573100 KB/s)
+[368] 1589921 bytes sent (1589921 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: favicon.ico
+[368] 232 bytes sent (232 KB/s)
+[368] 550 bytes sent (550 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: 
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[368] 218 bytes sent (218 KB/s)
+[368] 4608 bytes sent (4608 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[364] request path: demo.css
+[364] 217 bytes sent (217 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 2
+[344] request path: annstyle.css
+[364] 3659 bytes sent (3659 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[344] 215 bytes sent (215 KB/s)
+[364] request path: scripts/X/utils/xtk.js
+[344] 242 bytes sent (242 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 2
+[344] request path: scripts/webix/webix.js
+[344] 235 bytes sent (235 KB/s)
+[364] 262379 bytes sent (262379 KB/s)
+[400] connection accepted
+[400] IP: 127.0.0.1
+Connected clients: 3
+[344] 131307 bytes sent (131307 KB/s)
+[364] 393451 bytes sent (393451 KB/s)
+[400] request path: scripts/webix/webix.css
+[396] connection accepted
+[396] IP: 127.0.0.1
+Connected clients: 4
+[344] 262379 bytes sent (262379 KB/s)
+[364] 524523 bytes sent (524523 KB/s)
+[400] 219 bytes sent (219 KB/s)
+[396] request path: scripts/kdTree.js
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 5
+[400] 125838 bytes sent (125838 KB/s)
+[400] socket closed after responded for 1 requests
+Connected clients: 5
+[396] 234 bytes sent (234 KB/s)
+[408] request path: demo_seperate_objects.js
+[344] 393451 bytes sent (393451 KB/s)
+[364] 655595 bytes sent (655595 KB/s)
+[396] 13976 bytes sent (13976 KB/s)
+[396] socket closed after responded for 1 requests
+Connected clients: 4
+[408] 234 bytes sent (234 KB/s)
+[408] 40681 bytes sent (40681 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 3
+[364] 786667 bytes sent (786667 KB/s)
+[344] 435744 bytes sent (435744 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[364] 792833 bytes sent (792833 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[364] request path: favicon.ico
+[364] 232 bytes sent (232 KB/s)
+[368] request path: favicon.ico
+[364] 550 bytes sent (550 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 2
+[368] 232 bytes sent (232 KB/s)
+[368] 550 bytes sent (550 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: 
+[368] 218 bytes sent (218 KB/s)
+[368] 4608 bytes sent (4608 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: demo.css
+[368] 217 bytes sent (217 KB/s)
+[368] 3659 bytes sent (3659 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: annstyle.css
+[368] 215 bytes sent (215 KB/s)
+[368] 242 bytes sent (242 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: scripts/X/utils/xtk.js
+[368] 235 bytes sent (235 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[368] 262379 bytes sent (262379 KB/s)
+[368] 393451 bytes sent (393451 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[364] request path: scripts/webix/webix.js
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 3
+[368] 524523 bytes sent (524523 KB/s)
+[408] request path: scripts/webix/webix.css
+[408] 219 bytes sent (219 KB/s)
+[408] 125838 bytes sent (125838 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 3
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 3
+[368] 655595 bytes sent (655595 KB/s)
+[364] 262379 bytes sent (262379 KB/s)
+[408] request path: scripts/kdTree.js
+[408] 234 bytes sent (234 KB/s)
+[408] 13976 bytes sent (13976 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 3
+[368] 786667 bytes sent (786667 KB/s)
+[364] 393451 bytes sent (393451 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 3
+[368] 792833 bytes sent (792833 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 3
+[408] request path: demo_seperate_objects.js
+[408] 234 bytes sent (234 KB/s)
+[408] 40681 bytes sent (40681 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 2
+[364] 435744 bytes sent (435744 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: favicon.ico
+[364] 232 bytes sent (0 KB/s)
+[364] 550 bytes sent (0 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: 
+[364] 218 bytes sent (218 KB/s)
+[364] 4608 bytes sent (4608 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: demo.css
+[364] 217 bytes sent (217 KB/s)
+[364] 3659 bytes sent (3659 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: annstyle.css
+[364] 215 bytes sent (215 KB/s)
+[364] 242 bytes sent (242 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: scripts/X/utils/xtk.js
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[364] 262379 bytes sent (262379 KB/s)
+[364] 393451 bytes sent (393451 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 2
+[408] request path: scripts/webix/webix.js
+[408] 235 bytes sent (235 KB/s)
+[364] 524523 bytes sent (524523 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 3
+[392] request path: scripts/webix/webix.css
+[364] 655595 bytes sent (655595 KB/s)
+[392] 219 bytes sent (219 KB/s)
+[392] 125838 bytes sent (125838 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[408] 262379 bytes sent (262379 KB/s)
+[364] 786667 bytes sent (786667 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 3
+[392] request path: scripts/kdTree.js
+[392] 234 bytes sent (234 KB/s)
+[392] 13976 bytes sent (13976 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 3
+[364] 792833 bytes sent (792833 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 3
+[408] 393451 bytes sent (393451 KB/s)
+[392] request path: demo_seperate_objects.js
+[408] 435744 bytes sent (435744 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 2
+[392] 234 bytes sent (234 KB/s)
+[392] 40681 bytes sent (40681 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: favicon.ico
+[392] 232 bytes sent (232 KB/s)
+[392] 550 bytes sent (550 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: ontology.json
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[392] 262379 bytes sent (262379 KB/s)
+[392] 393451 bytes sent (393451 KB/s)
+[392] 524523 bytes sent (524523 KB/s)
+[392] 655595 bytes sent (655595 KB/s)
+[392] 786667 bytes sent (786667 KB/s)
+[392] 877817 bytes sent (877817 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: voxel.json
+[392] 236 bytes sent (236 KB/s)
+[392] 131308 bytes sent (131308 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 2
+[408] request path: tsnemap_mouse_p32_t0_7.json
+[408] 236 bytes sent (236 KB/s)
+[408] 131308 bytes sent (131308 KB/s)
+[392] 262380 bytes sent (262380 KB/s)
+[408] 262380 bytes sent (262380 KB/s)
+[392] 393452 bytes sent (393452 KB/s)
+[408] 393452 bytes sent (393452 KB/s)
+[392] 524524 bytes sent (524524 KB/s)
+[408] 524524 bytes sent (524524 KB/s)
+[392] 655596 bytes sent (655596 KB/s)
+[408] 655596 bytes sent (655596 KB/s)
+[392] 786668 bytes sent (786668 KB/s)
+[408] 786668 bytes sent (786668 KB/s)
+[392] 917740 bytes sent (917740 KB/s)
+[408] 917740 bytes sent (917740 KB/s)
+[392] 1048812 bytes sent (1048812 KB/s)
+[392] 1179884 bytes sent (1179884 KB/s)
+[392] 1310956 bytes sent (1310956 KB/s)
+[392] 1398608 bytes sent (1398608 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[408] 1048812 bytes sent (1048812 KB/s)
+[408] 1179884 bytes sent (1179884 KB/s)
+[408] 1310956 bytes sent (1310956 KB/s)
+[408] 1442028 bytes sent (1442028 KB/s)
+[408] 1573100 bytes sent (1573100 KB/s)
+[408] 1589921 bytes sent (1589921 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: coords.json
+[408] 236 bytes sent (236 KB/s)
+[408] 131308 bytes sent (131308 KB/s)
+[408] 262380 bytes sent (262380 KB/s)
+[408] 393452 bytes sent (393452 KB/s)
+[408] 524524 bytes sent (524524 KB/s)
+[408] 655596 bytes sent (655596 KB/s)
+[408] 786668 bytes sent (786668 KB/s)
+[408] 917740 bytes sent (917740 KB/s)
+[408] 1048812 bytes sent (1048812 KB/s)
+[408] 1179884 bytes sent (1179884 KB/s)
+[408] 1310956 bytes sent (1310956 KB/s)
+[408] 1442028 bytes sent (1442028 KB/s)
+[408] 1573100 bytes sent (1573100 KB/s)
+[408] 1580446 bytes sent (1580446 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: 
+[408] 218 bytes sent (218 KB/s)
+[408] 4608 bytes sent (4608 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: demo.css
+[408] 217 bytes sent (217 KB/s)
+[408] 3659 bytes sent (3659 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: annstyle.css
+[408] 215 bytes sent (215 KB/s)
+[408] 242 bytes sent (242 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: scripts/X/utils/xtk.js
+[408] 235 bytes sent (235 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[408] 393451 bytes sent (393451 KB/s)
+[408] 524523 bytes sent (524523 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 2
+[408] 655595 bytes sent (655595 KB/s)
+[392] request path: scripts/webix/webix.js
+[392] 235 bytes sent (235 KB/s)
+[392] 131307 bytes sent (131307 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[408] 786667 bytes sent (786667 KB/s)
+[344] request path: scripts/webix/webix.css
+[344] 219 bytes sent (219 KB/s)
+[344] 125838 bytes sent (125838 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 3
+[392] 262379 bytes sent (262379 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 3
+[408] 792833 bytes sent (792833 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 3
+[344] request path: scripts/kdTree.js
+[344] 234 bytes sent (234 KB/s)
+[344] 13976 bytes sent (13976 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[392] 393451 bytes sent (393451 KB/s)
+[392] 435744 bytes sent (435744 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 1
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 1
+[392] request path: demo_seperate_objects.js
+[392] 234 bytes sent (234 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 2
+[392] 40678 bytes sent (40678 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 2
+[344] request path: favicon.ico
+[344] 232 bytes sent (0 KB/s)
+[344] 550 bytes sent (0 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: ontology.json
+[344] 235 bytes sent (235 KB/s)
+[344] 131307 bytes sent (131307 KB/s)
+[344] 262379 bytes sent (262379 KB/s)
+[344] 393451 bytes sent (393451 KB/s)
+[344] 524523 bytes sent (524523 KB/s)
+[344] 655595 bytes sent (655595 KB/s)
+[344] 786667 bytes sent (786667 KB/s)
+[344] 877817 bytes sent (877817 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: voxel.json
+[344] 236 bytes sent (236 KB/s)
+[344] 131308 bytes sent (131308 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 2
+[364] request path: tsnemap_mouse_p32_t0_7.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[344] 262380 bytes sent (262380 KB/s)
+[364] 262380 bytes sent (262380 KB/s)
+[344] 393452 bytes sent (393452 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[344] 524524 bytes sent (524524 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[344] 655596 bytes sent (655596 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[344] 786668 bytes sent (786668 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[344] 917740 bytes sent (917740 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[344] 1048812 bytes sent (1048812 KB/s)
+[344] 1179884 bytes sent (1179884 KB/s)
+[344] 1310956 bytes sent (1310956 KB/s)
+[344] 1398608 bytes sent (1398608 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1179884 bytes sent (1179884 KB/s)
+[364] 1310956 bytes sent (1310956 KB/s)
+[364] 1442028 bytes sent (1442028 KB/s)
+[364] 1573100 bytes sent (1573100 KB/s)
+[364] 1589921 bytes sent (1589921 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: coords.json
+[364] 236 bytes sent (236 KB/s)
+[364] 131308 bytes sent (131308 KB/s)
+[364] 262380 bytes sent (262380 KB/s)
+[364] 393452 bytes sent (393452 KB/s)
+[364] 524524 bytes sent (524524 KB/s)
+[364] 655596 bytes sent (655596 KB/s)
+[364] 786668 bytes sent (786668 KB/s)
+[364] 917740 bytes sent (917740 KB/s)
+[364] 1048812 bytes sent (1048812 KB/s)
+[364] 1179884 bytes sent (1179884 KB/s)
+[364] 1310956 bytes sent (1310956 KB/s)
+[364] 1442028 bytes sent (1442028 KB/s)
+[364] 1573100 bytes sent (1573100 KB/s)
+[364] 1580446 bytes sent (1580446 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: 
+[364] 218 bytes sent (218 KB/s)
+[364] 4608 bytes sent (4608 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: demo.css
+[364] 217 bytes sent (217 KB/s)
+[364] 3659 bytes sent (3659 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: annstyle.css
+[364] 215 bytes sent (215 KB/s)
+[364] 242 bytes sent (242 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 1
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 1
+[364] request path: scripts/X/utils/xtk.js
+[364] 235 bytes sent (235 KB/s)
+[364] 131307 bytes sent (131307 KB/s)
+[364] 262379 bytes sent (262379 KB/s)
+[364] 393451 bytes sent (393451 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 2
+[344] request path: scripts/webix/webix.js
+[364] 524523 bytes sent (524523 KB/s)
+[344] 235 bytes sent (235 KB/s)
+[344] 131307 bytes sent (131307 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 3
+[368] request path: scripts/webix/webix.css
+[368] 219 bytes sent (219 KB/s)
+[368] 125838 bytes sent (125838 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 3
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 3
+[364] 655595 bytes sent (655595 KB/s)
+[368] request path: scripts/kdTree.js
+[344] 262379 bytes sent (262379 KB/s)
+[368] 234 bytes sent (234 KB/s)
+[368] 13976 bytes sent (13976 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 3
+[364] 786667 bytes sent (786667 KB/s)
+[344] 393451 bytes sent (393451 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 3
+[368] request path: demo_seperate_objects.js
+[364] 792833 bytes sent (792833 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 3
+[344] 435744 bytes sent (435744 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 2
+[368] 234 bytes sent (234 KB/s)
+[368] 40692 bytes sent (40692 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: favicon.ico
+[368] 232 bytes sent (232 KB/s)
+[368] 550 bytes sent (550 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: ontology.json
+[368] 235 bytes sent (235 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[368] 262379 bytes sent (262379 KB/s)
+[368] 393451 bytes sent (393451 KB/s)
+[368] 524523 bytes sent (524523 KB/s)
+[368] 655595 bytes sent (655595 KB/s)
+[368] 786667 bytes sent (786667 KB/s)
+[368] 877817 bytes sent (877817 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: voxel.json
+[368] 236 bytes sent (236 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 2
+[344] request path: tsnemap_mouse_p32_t0_7.json
+[344] 236 bytes sent (236 KB/s)
+[344] 131308 bytes sent (131308 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[344] 262380 bytes sent (262380 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[344] 393452 bytes sent (393452 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[344] 524524 bytes sent (524524 KB/s)
+[368] 786668 bytes sent (786668 KB/s)
+[344] 655596 bytes sent (655596 KB/s)
+[368] 917740 bytes sent (917740 KB/s)
+[344] 786668 bytes sent (786668 KB/s)
+[344] 917740 bytes sent (917740 KB/s)
+[368] 1048812 bytes sent (1048812 KB/s)
+[368] 1179884 bytes sent (1179884 KB/s)
+[368] 1310956 bytes sent (1310956 KB/s)
+[368] 1398608 bytes sent (1398608 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[344] 1048812 bytes sent (1048812 KB/s)
+[344] 1179884 bytes sent (1179884 KB/s)
+[344] 1310956 bytes sent (1310956 KB/s)
+[344] 1442028 bytes sent (1442028 KB/s)
+[344] 1573100 bytes sent (1573100 KB/s)
+[344] 1589921 bytes sent (1589921 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: coords.json
+[344] 236 bytes sent (236 KB/s)
+[344] 131308 bytes sent (131308 KB/s)
+[344] 262380 bytes sent (262380 KB/s)
+[344] 393452 bytes sent (393452 KB/s)
+[344] 524524 bytes sent (524524 KB/s)
+[344] 655596 bytes sent (655596 KB/s)
+[344] 786668 bytes sent (786668 KB/s)
+[344] 917740 bytes sent (917740 KB/s)
+[344] 1048812 bytes sent (1048812 KB/s)
+[344] 1179884 bytes sent (1179884 KB/s)
+[344] 1310956 bytes sent (1310956 KB/s)
+[344] 1442028 bytes sent (1442028 KB/s)
+[344] 1573100 bytes sent (1573100 KB/s)
+[344] 1580446 bytes sent (1580446 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: 
+[344] 218 bytes sent (218 KB/s)
+[344] 4608 bytes sent (4608 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: demo.css
+[344] 217 bytes sent (217 KB/s)
+[344] 3659 bytes sent (3659 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: annstyle.css
+[344] 215 bytes sent (215 KB/s)
+[344] 242 bytes sent (242 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 1
+[344] connection accepted
+[344] IP: 127.0.0.1
+Connected clients: 1
+[344] request path: scripts/X/utils/xtk.js
+[344] 235 bytes sent (235 KB/s)
+[344] 131307 bytes sent (131307 KB/s)
+[344] 262379 bytes sent (262379 KB/s)
+[344] 393451 bytes sent (393451 KB/s)
+[344] 524523 bytes sent (524523 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: scripts/webix/webix.js
+[368] 235 bytes sent (235 KB/s)
+[344] 655595 bytes sent (655595 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 3
+[364] request path: scripts/webix/webix.css
+[364] 219 bytes sent (219 KB/s)
+[364] 125838 bytes sent (125838 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 3
+[344] 786667 bytes sent (786667 KB/s)
+[364] connection accepted
+[364] IP: 127.0.0.1
+Connected clients: 3
+[368] 262379 bytes sent (262379 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 4
+[364] request path: scripts/kdTree.js
+[364] 234 bytes sent (234 KB/s)
+[364] 13976 bytes sent (13976 KB/s)
+[364] socket closed after responded for 1 requests
+Connected clients: 4
+[344] 792833 bytes sent (792833 KB/s)
+[344] socket closed after responded for 1 requests
+Connected clients: 3
+[368] 393451 bytes sent (393451 KB/s)
+[408] request path: demo_seperate_objects.js
+[368] 435744 bytes sent (435744 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[408] 234 bytes sent (234 KB/s)
+[408] 40693 bytes sent (40693 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: favicon.ico
+[408] 232 bytes sent (232 KB/s)
+[408] 550 bytes sent (550 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: ontology.json
+[408] 235 bytes sent (235 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[408] 393451 bytes sent (393451 KB/s)
+[408] 524523 bytes sent (524523 KB/s)
+[408] 655595 bytes sent (655595 KB/s)
+[408] 786667 bytes sent (786667 KB/s)
+[408] 877817 bytes sent (877817 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: voxel.json
+[408] 236 bytes sent (236 KB/s)
+[408] 131308 bytes sent (131308 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: tsnemap_mouse_p64_t0_7.json
+[368] 236 bytes sent (236 KB/s)
+[408] 262380 bytes sent (262380 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[408] 393452 bytes sent (393452 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[408] 524524 bytes sent (524524 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[408] 655596 bytes sent (655596 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[408] 786668 bytes sent (786668 KB/s)
+[408] 917740 bytes sent (917740 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[408] 1048812 bytes sent (1048812 KB/s)
+[368] 786668 bytes sent (786668 KB/s)
+[368] 917740 bytes sent (917740 KB/s)
+[408] 1179884 bytes sent (1179884 KB/s)
+[408] 1310956 bytes sent (1310956 KB/s)
+[408] 1398608 bytes sent (1398608 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 2
+[368] 1048812 bytes sent (1048812 KB/s)
+[368] 1179884 bytes sent (1179884 KB/s)
+[368] 1310956 bytes sent (1310956 KB/s)
+[368] 1442028 bytes sent (1442028 KB/s)
+[368] 1573100 bytes sent (1573100 KB/s)
+[368] 1583460 bytes sent (1583460 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: coords.json
+[368] 236 bytes sent (236 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[368] 786668 bytes sent (786668 KB/s)
+[368] 917740 bytes sent (917740 KB/s)
+[368] 1048812 bytes sent (1048812 KB/s)
+[368] 1179884 bytes sent (1179884 KB/s)
+[368] 1310956 bytes sent (1310956 KB/s)
+[368] 1442028 bytes sent (1442028 KB/s)
+[368] 1573100 bytes sent (1573100 KB/s)
+[368] 1580446 bytes sent (1580446 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: 
+[368] 218 bytes sent (218 KB/s)
+[368] 4608 bytes sent (4608 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: demo.css
+[368] 217 bytes sent (217 KB/s)
+[368] 3659 bytes sent (3659 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: annstyle.css
+[368] 215 bytes sent (215 KB/s)
+[368] 242 bytes sent (242 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: scripts/X/utils/xtk.js
+[368] 235 bytes sent (235 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[368] 262379 bytes sent (262379 KB/s)
+[368] 393451 bytes sent (393451 KB/s)
+[368] 524523 bytes sent (524523 KB/s)
+[368] 655595 bytes sent (655595 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 2
+[408] request path: scripts/webix/webix.js
+[408] 235 bytes sent (235 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[368] 786667 bytes sent (786667 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[368] 792833 bytes sent (792833 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: scripts/webix/webix.css
+[368] 219 bytes sent (219 KB/s)
+[408] 393451 bytes sent (393451 KB/s)
+[368] 125838 bytes sent (125838 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[408] 435744 bytes sent (435744 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: scripts/kdTree.js
+[408] 234 bytes sent (234 KB/s)
+[408] 13976 bytes sent (13976 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: demo_seperate_objects.js
+[408] 234 bytes sent (234 KB/s)
+[408] 40749 bytes sent (40749 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: favicon.ico
+[408] 232 bytes sent (232 KB/s)
+[408] 550 bytes sent (550 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: ontology.json
+[408] 235 bytes sent (235 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[408] 262379 bytes sent (262379 KB/s)
+[408] 393451 bytes sent (393451 KB/s)
+[408] 524523 bytes sent (524523 KB/s)
+[408] 655595 bytes sent (655595 KB/s)
+[408] 786667 bytes sent (786667 KB/s)
+[408] 877817 bytes sent (877817 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 1
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 1
+[408] request path: voxel.json
+[408] 236 bytes sent (236 KB/s)
+[408] 131308 bytes sent (131308 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: tsnemap_mouse_p64_t0_7.json
+[408] 262380 bytes sent (262380 KB/s)
+[368] 236 bytes sent (236 KB/s)
+[408] 393452 bytes sent (393452 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[408] 524524 bytes sent (524524 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[408] 655596 bytes sent (655596 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[408] 786668 bytes sent (786668 KB/s)
+[408] 917740 bytes sent (917740 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[368] 786668 bytes sent (786668 KB/s)
+[368] 917740 bytes sent (917740 KB/s)
+[408] 1048812 bytes sent (1048812 KB/s)
+[408] 1179884 bytes sent (1179884 KB/s)
+[408] 1310956 bytes sent (1310956 KB/s)
+[408] 1398608 bytes sent (1398608 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 2
+[368] 1048812 bytes sent (1048812 KB/s)
+[368] 1179884 bytes sent (1179884 KB/s)
+[368] 1310956 bytes sent (1310956 KB/s)
+[368] 1442028 bytes sent (1442028 KB/s)
+[368] 1573100 bytes sent (1573100 KB/s)
+[368] 1583460 bytes sent (1583460 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: coords.json
+[368] 236 bytes sent (236 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[368] 786668 bytes sent (786668 KB/s)
+[368] 917740 bytes sent (917740 KB/s)
+[368] 1048812 bytes sent (1048812 KB/s)
+[368] 1179884 bytes sent (1179884 KB/s)
+[368] 1310956 bytes sent (1310956 KB/s)
+[368] 1442028 bytes sent (1442028 KB/s)
+[368] 1573100 bytes sent (1573100 KB/s)
+[368] 1580446 bytes sent (1580446 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: 
+[368] 218 bytes sent (218 KB/s)
+[368] 4608 bytes sent (4608 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: demo.css
+[368] 217 bytes sent (217 KB/s)
+[368] 3659 bytes sent (3659 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: annstyle.css
+[368] 215 bytes sent (215 KB/s)
+[368] 242 bytes sent (242 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: scripts/X/utils/xtk.js
+[368] 235 bytes sent (235 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[368] 262379 bytes sent (262379 KB/s)
+[368] 393451 bytes sent (393451 KB/s)
+[368] 524523 bytes sent (524523 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 2
+[408] request path: scripts/webix/webix.js
+[408] 235 bytes sent (235 KB/s)
+[368] 655595 bytes sent (655595 KB/s)
+[408] 131307 bytes sent (131307 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 3
+[392] request path: scripts/webix/webix.css
+[392] 219 bytes sent (219 KB/s)
+[392] 125838 bytes sent (125838 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[368] 786667 bytes sent (786667 KB/s)
+[392] connection accepted
+[392] IP: 127.0.0.1
+Connected clients: 3
+[408] 262379 bytes sent (262379 KB/s)
+[392] request path: scripts/kdTree.js
+[392] 234 bytes sent (234 KB/s)
+[392] 13976 bytes sent (13976 KB/s)
+[392] socket closed after responded for 1 requests
+Connected clients: 3
+[368] 792833 bytes sent (792833 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 2
+[408] 393451 bytes sent (393451 KB/s)
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 2
+[368] request path: demo_seperate_objects.js
+[368] 234 bytes sent (234 KB/s)
+[408] 435744 bytes sent (435744 KB/s)
+[408] socket closed after responded for 1 requests
+Connected clients: 2
+[368] 40758 bytes sent (40758 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: favicon.ico
+[368] 232 bytes sent (232 KB/s)
+[368] 550 bytes sent (550 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: ontology.json
+[368] 235 bytes sent (235 KB/s)
+[368] 131307 bytes sent (131307 KB/s)
+[368] 262379 bytes sent (262379 KB/s)
+[368] 393451 bytes sent (393451 KB/s)
+[368] 524523 bytes sent (524523 KB/s)
+[368] 655595 bytes sent (655595 KB/s)
+[368] 786667 bytes sent (786667 KB/s)
+[368] 877817 bytes sent (877817 KB/s)
+[368] socket closed after responded for 1 requests
+Connected clients: 1
+[368] connection accepted
+[368] IP: 127.0.0.1
+Connected clients: 1
+[368] request path: voxel.json
+[368] 236 bytes sent (236 KB/s)
+[368] 131308 bytes sent (131308 KB/s)
+[408] connection accepted
+[408] IP: 127.0.0.1
+Connected clients: 2
+[408] request path: tsnemap_mouse_p64_t0_7.json
+[408] 236 bytes sent (236 KB/s)
+[408] 131308 bytes sent (131308 KB/s)
+[368] 262380 bytes sent (262380 KB/s)
+[408] 262380 bytes sent (262380 KB/s)
+[368] 393452 bytes sent (393452 KB/s)
+[408] 393452 bytes sent (393452 KB/s)
+[368] 524524 bytes sent (524524 KB/s)
+[408] 524524 bytes sent (524524 KB/s)
+[368] 655596 bytes sent (655596 KB/s)
+[408] 655596 bytes sent (655596 KB/s)
+[368] 
