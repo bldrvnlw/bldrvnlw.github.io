@@ -1,8 +1,10 @@
-// This code was created by standing on the shoulders of giants, falling off at regular intervals, and then slowly clambering my way back up. 
+// This code was created by standing on the shoulders of giants, 
+// falling off at regular intervals, and then slowly clambering my way back up. :-)
 // All credit goes to them, the mistakes are all my own.
-// B. van Lew Feb 2014.
+// B. van Lew Feb 2015.
 
-// TODO migrate to an more OO-solution - made a start on this - should split into separate files
+// TODO split class definitions into separate files
+// TODO reduce number of globals
 // 
 
 var atlasTable = null;
@@ -39,14 +41,18 @@ var tsneRenderer = false;
 var mapTree = null;
 
 //<Class definition for the BrainRenderer>
-var BrainRenderer = function() {
-	// The constructor loads the JSON data for the mouse brain
+// BrainRenderer uses the XTK 3D renderer to render a set of labeled
+// points in three dimensions. This rendering can be used to locate 
+// physical position of the selected tSNE map points. 
+function BrainRenderer() {
+	// The constructor loads the JSON data for the (mouse) brain
 	// the path for the data could be passed as an argument
 	var self = this;
 	var json_data;
 	$.getJSON( "coords.json", function( data ) {
 		self.brainCoords = data.coords;
 		self.brainRenderer = new X.renderer3D();
+		// TODO pass container location as parameter to constructor.
 		self.brainRenderer.container = document.getElementById("BrainLocator");
 		self.brainRenderer.init();
 		self.colors = voxelData.voxel_props.colors;			
@@ -199,7 +205,7 @@ webix.extend(webix.ui.datatable,
 });
 
 //<Class definition for the tSNEMap3DRender>
-var tSNEMap3DRender = function() {
+function tSNEMap3DRender() {
 	this.xtkRenderer = new X.renderer3D();
 	this.xtkRenderer.config['PICKING_ENABLED'] = true;  
 
@@ -475,7 +481,7 @@ function getStyleSheet(unique_title) {
 }
 
 //<Class definition for the d3ScatterPlotRender>
-var d3ScatterPlotRender = function() {
+function d3ScatterPlotRender() {
 	this.svg = d3.select($("#3DtsneMap")[0])
 			.append("svg")
 			.attr("width", 1000)
@@ -1174,7 +1180,7 @@ function defineControls() {
 		]
 	});	
 	
-	// add the controls one by on to the multiview and the tabbar
+	// add the controls one by one to the multiview and the tabbar
 	// First the ontology navigator
 	var atlasId= $$("multiViewCellsId").addView(atlasTableDef);
 	var toolTabs = $$("toolTabs");
