@@ -1,3 +1,7 @@
+/*jslint plusplus: true */
+/*jslint todo: true */
+/*jslint bitwise: true*/
+
 // This code was created by standing on the shoulders of giants, 
 // falling off at regular intervals, and then slowly clambering my way back up. :-)
 // All credit goes to them, the mistakes are all my own.
@@ -6,6 +10,8 @@
 // TODO split class definitions into separate files
 // TODO reduce number of globals
 // 
+
+
 
 var atlasTable = null;
 
@@ -25,9 +31,9 @@ var multiView = null;
 
 var selectTable = null;
 
-var ControlValues = function() {
+var ControlValues = function () {
+	'use strict';
 	this.selectionRadius = 0.4;
-	
 };
 
 var selectionGui;
@@ -47,26 +53,28 @@ var mapTree = null;
 function BrainRenderer() {
 	// The constructor loads the JSON data for the (mouse) brain
 	// the path for the data could be passed as an argument
-	var self = this;
-	var json_data;
-	$.getJSON( "coords.json", function( data ) {
+	'use strict';
+	var self = this,
+		json_data,
+		i = 0;
+	$.getJSON("coords.json", function (data) {
 		self.brainCoords = data.coords;
 		self.brainRenderer = new X.renderer3D();
 		// TODO pass container location as parameter to constructor.
 		self.brainRenderer.container = document.getElementById("BrainLocator");
 		self.brainRenderer.init();
-		self.colors = voxelData.voxel_props.colors;			
+		self.colors = voxelData.voxel_props.colors;
 		self.brainObject = new X.object();
 		self.brainObject.pointsize = 6;
-		self.brainObject.type = 'POINTS';		
+		self.brainObject.type = 'POINTS';
 		self.brainObject.points = new X.triplets(self.brainCoords.length * 3);
 		self.brainObject.normals = new X.triplets(self.brainCoords.length * 3);
 		self.brainObject.colors = new X.triplets(self.brainCoords.length * 3);
-		var cx = 0;
-		var cy = 0;
-		var cz = 0;
-		var vector = new X.vector(0,0,0);
-		for (var i=0; i<self.brainCoords.length; i++) {
+		var cx = 0,
+			cy = 0,
+			cz = 0,
+			vector = new X.vector(0, 0, 0);
+		for (i = 0; i < self.brainCoords.length; i++) {
 			cx += self.brainCoords[i][0];
 			cy += self.brainCoords[i][1];
 			cy += self.brainCoords[i][2];
@@ -75,40 +83,40 @@ function BrainRenderer() {
 		cy = cy / self.brainCoords.length;
 		cz = cz / self.brainCoords.length;
 		self.brainCentroid = [cx, cy, cz];
-		for (var i=0; i<self.brainCoords.length; i++) {
-			var point = self.brainCoords[i];
-			var centeredPoint = [point[0]-cx, point[1]-cy, point[2]-cz]
-			var color = self.colors[i];
-			var red = ((color >> 16) & 0xFF)/0xFF;
-			var green = ((color >> 8) & 0xFF)/0xFF;
-			var blue = (color & 0xFF)/0xFF;	
+		for (i = 0; i < self.brainCoords.length; i++) {
+			var point = self.brainCoords[i],
+				centeredPoint = [point[0] - cx, point[1] - cy, point[2] - cz],
+				color = self.colors[i],
+				red = ((color >> 16) & 0xFF) / 0xFF,
+				green = ((color >> 8) & 0xFF) / 0xFF,
+				blue = (color & 0xFF) / 0xFF;
 			// unit normals pointing from center (gives 3d lighting effect)
-			
 			self.brainObject.normals.add(centeredPoint[0], centeredPoint[1], centeredPoint[2]);
-			self.brainObject.points.add(centeredPoint[0], centeredPoint[1], centeredPoint[2]);		
+			self.brainObject.points.add(centeredPoint[0], centeredPoint[1], centeredPoint[2]);
 			self.brainObject.colors.add(red, green, blue);
-		}				
+		}
 		self.brainObject.opacity = 1;
 		self.brainObject.modified();
-		self.brainRenderer.add(self.brainObject);	
+		self.brainRenderer.add(self.brainObject);
 		self.brainCubes = []; // will store a stack of array of cubes for undo
 		self.brainRenderer.render();
 	});
-};
+}
 
-BrainRenderer.prototype.selectInBrainAtlas = function(indexes) {
+BrainRenderer.prototype.selectInBrainAtlas = function (indexes) {
+	'use strict';
+	var i = 0,
+		newCubes = [];
 	// remove option
-	if (indexes.length == 0) {
+	if (indexes.length === 0) {
 		return;
 	}
-	var newCubes = [];
-	for (var i=0; i < indexes.length; i++) {
-	
+	for (i = 0; i < indexes.length; i++) {
 		var newCube = new X.cube();
-		var point = this.brainCoords[indexes[i]]
+		var point = this.brainCoords[indexes[i]];
 		newCube.center = [point[0] - this.brainCentroid[0], point[1] - this.brainCentroid[1], point[2] - this.brainCentroid[2]];
 		newCube.lengthX = newCube.lengthY = newCube.lengthZ = 0.2;
-		newCube.color = [1,1,1]; 
+		newCube.color = [1, 1, 1];
 		newCube.opacity = 1;
 		this.brainRenderer.add(newCube);
 		newCubes.push(newCube);
@@ -116,19 +124,23 @@ BrainRenderer.prototype.selectInBrainAtlas = function(indexes) {
 	this.brainCubes.push(newCubes);
 	this.brainObject.opacity = 0.2;
 	this.brainObject.modified();
-}
+};
 
 BrainRenderer.prototype.undoSelectInBrainAtlas = function() {
-	var cubes = this.brainCubes.pop();
-	if (!cubes)
+	'use strict';
+	var cubes = this.brainCubes.pop(),
+		i = 0;
+	if (!cubes) {
 		return;
-	for (var i=0; i<cubes.length; i++) {
+	}
+	for (i=0; i<cubes.length; i++) {
 		this.brainRenderer.remove(cubes[i]);
 	}
 	this.brainObject.modified();	
-}
+};
 
 BrainRenderer.prototype.clearSelectInBrainAtlas = function() {
+	'use strict';
 	var allBrainCubes = [].concat.apply([],this.brainCubes);
 	for (var i=0; i<allBrainCubes.length; i++) {
 		this.brainRenderer.remove(allBrainCubes[i]);
@@ -137,7 +149,7 @@ BrainRenderer.prototype.clearSelectInBrainAtlas = function() {
 	this.brainCubes = [];
 	this.brainObject.opacity = 1;
 	this.brainObject.modified();	
-}
+};
 //</Class definition for the BrainRenderer>
 
 var brainRenderer = null; 
@@ -145,7 +157,7 @@ var brainRenderer = null;
 // Some polyfill for findIndex see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex#Browser_compatibility
 if (!Array.prototype.findIndex) {
   Array.prototype.findIndex = function(predicate) {
-    if (this == null) {
+    if (this === null) {
       throw new TypeError('Array.prototype.findIndex called on null or undefined');
     }
     if (typeof predicate !== 'function') {
@@ -168,35 +180,34 @@ if (!Array.prototype.findIndex) {
 
 // code from http://forum.webix.com/discussion/978/how-to-get-multiline-text-in-cells-in-datatable
 webix.extend(webix.ui.datatable,
-					   {myAdjustRowHeight:function(id, silent, rId){
+	{myAdjustRowHeight:function(id, silent, rId){
+		function processRow(that,obj){
+			var h =  [that.config.rowHeight], config;
+			for(var i=0;i<id.length;i++){
+				config = that.getColumnConfig(id[i]);
+				d.style.width = config.width+"px";
+				d.innerHTML = that.getText(obj.id, config.id);
+				h.push(d.scrollHeight);
+			}
+			obj.$height = Math.max.apply(null,h);
+		}
 
-  function processRow(that,obj){
-	var h =  [that.config.rowHeight], config;
-	for(var i=0;i<id.length;i++){
-	  config = that.getColumnConfig(id[i]);
-	  d.style.width = config.width+"px";
-	  d.innerHTML = that.getText(obj.id, config.id);
-	  h.push(d.scrollHeight);
-	}
-	obj.$height = Math.max.apply(null,h);
-  }
+		if(typeof id == 'string') id=[id];
 
-	   if(typeof id == 'string') id=[id];
-
-	   var d = webix.html.create("DIV",{"class":
-		 "webix_table_cell webix_measure_size webix_cell"},"");
+		var d = webix.html.create("DIV",{"class":
+		"webix_table_cell webix_measure_size webix_cell"},"");
 		d.style.cssText = "height:1px; visibility:hidden; position:absolute; top:0px; left:0px; overflow:hidden;";
 		this.$view.appendChild(d);
 
-		  if(rId){
+		if(rId){
 			var obj = this.getItem(rId);
 			processRow(this,obj);
-		  }
-		  else{
+		}
+		else{
 			this.data.each(function(obj){
-			  processRow(this,obj);
+				processRow(this,obj);
 			}, this);
-		  }
+		}
 
 		d = webix.html.remove(d);
 		if (!silent)
@@ -207,7 +218,7 @@ webix.extend(webix.ui.datatable,
 //<Class definition for the tSNEMap3DRender>
 function tSNEMap3DRender() {
 	this.xtkRenderer = new X.renderer3D();
-	this.xtkRenderer.config['PICKING_ENABLED'] = true;  
+	this.xtkRenderer.config.PICKING_ENABLED = true;  
 
 	this.xtkRenderer.container = "3DtsneMap";
 	this.xtkRenderer.init();
@@ -234,15 +245,14 @@ function tSNEMap3DRender() {
 
 			$("#loading").css('display','none');
 
-		  // rotate the camera in X-direction
-		  //xtkRenderer.camera.rotate([1, 0]);
-		  
+			// rotate the camera in X-direction
+			//xtkRenderer.camera.rotate([1, 0]);
 		};
 	};
 	
 	function pointEpsilonCompare(point, element, index, array) {
 		if ((Math.abs(point[0] - element[0]) < 0.5) &&
-		    (Math.abs(point[1] - element[1]) < 0.5) &&
+			(Math.abs(point[1] - element[1]) < 0.5) &&
 			(Math.abs(point[2] - element[2]) < 0.1)) {
 			return true;
 		}
@@ -256,10 +266,10 @@ function tSNEMap3DRender() {
 		for (var i=0; i<nearestPoints.length; i++) {
 			indexes.push(nearestPoints[i][0].id);
 		}
-/* 		for (var i=0; i<tsneMap.tsneMap.length; i++) {
+/*		for (var i=0; i<tsneMap.tsneMap.length; i++) {
 			// brute force search in bounding box for speed
 			if ((Math.abs(point[0] - tsneMap.tsneMap[i][0]) < radius) &&
-			    (Math.abs(point[1] - tsneMap.tsneMap[i][1]) < radius) &&
+				(Math.abs(point[1] - tsneMap.tsneMap[i][1]) < radius) &&
 				(Math.abs(point[2] - tsneMap.tsneMap[i][2]) < radius)) {
 				indexes.push(i);
 			}
@@ -269,7 +279,6 @@ function tSNEMap3DRender() {
 	}	
   
 	this.xtkRenderer.interactor.onMouseDown = function(left, middle, right) {
-
 		// only observe right mouse clicks        
 		//if (!right) return;
 		// always complete the last open
@@ -283,7 +292,7 @@ function tSNEMap3DRender() {
 			var _id = self.xtkRenderer.pick(_pos[0], _pos[1]);
 			var structureObject = self.xtkRenderer.get(_id);
 			if (structureObject) {
-				var annotation_id = structureObject["annotation"];
+				var annotation_id = structureObject.annotation;
 				// must be visible to check the box - (there may be another way to do this)
 				var checkBoxId = '#singleSelectCheckbox_' + annotation_id;
 				atlasTable.openAll();
@@ -294,14 +303,15 @@ function tSNEMap3DRender() {
 			}
 			return;
 		}
-
-	}
+	};
 
 	this.xtkRenderer.interactor.onKey = function (event) {
 		// Defined key functions when the renderer has the focus
-		// 		select points - s
-		// 		clear all - c
-		// 		undo selection - ctrl-z
+		//		select points - s
+		//		clear all - c
+		//		undo selection - ctrl-z
+		var threeDarray;
+		var twoDarray;
 		if (!brainRenderer) {
 			return;
 		}
@@ -310,9 +320,9 @@ function tSNEMap3DRender() {
 		}	
 		if(event.keyCode == 83) {
 			var _pos = self.xtkRenderer.interactor.mousePosition;
-			var dimensionality = tsneRenderer["dimensionality"];
+			var dimensionality = tsneRenderer.dimensionality;
 			if (dimensionality == 3) {
-				var threeDarray = self.xtkRenderer.pick3d(_pos[0], _pos[1], 0.05, 0.15);
+				threeDarray = self.xtkRenderer.pick3d(_pos[0], _pos[1], 0.05, 0.15);
 				if (threeDarray) {
 					//var selectedIndex = tsneMap.tsneMap.findIndex(pointEpsilonCompare.bind(null,threeDarray));
 					var indexes = getNearbyPoints(threeDarray, selectionValues.selectionRadius);
@@ -343,8 +353,8 @@ function tSNEMap3DRender() {
 				}
 			}
 			else {
-				var twoDarray = self.xtkRenderer.pick(_pos[0], _pos[1]);
-				var threeDarray = self.xtkRenderer.pick3d(_pos[0], _pos[1]);
+				twoDarray = self.xtkRenderer.pick(_pos[0], _pos[1]);
+				threeDarray = self.xtkRenderer.pick3d(_pos[0], _pos[1]);
 				//console.log(twoDarray);				
 			}
 			if (brainRenderer) {
@@ -360,13 +370,13 @@ function tSNEMap3DRender() {
 			if (!ctrlPressed) {
 				return;
 			}
-			if (self.selectionCubesStack.length == 0) {
+			if (self.selectionCubesStack.length === 0) {
 				return;
 			}
 			self.undoSelection();
 		}
 	}; 
-};
+}
 
 tSNEMap3DRender.prototype.clearSelection = function() {
 	if (brainRenderer) {
@@ -379,10 +389,13 @@ tSNEMap3DRender.prototype.clearSelection = function() {
 	this.selectionCubesStack = [];
 	this.selectionCubes = [];
 	this.selectionList = [];
-}
+};
 
 tSNEMap3DRender.prototype.undoSelection = function() {
 	var removeCubes = this.selectionCubesStack.pop();
+	if (removeCubes === undefined) {
+		return;
+	}
 	this.selectionListStack.pop();
 	for (var i=0; i<removeCubes.length; i++) {
 		this.xtkRenderer.remove(removeCubes[i]);
@@ -392,28 +405,28 @@ tSNEMap3DRender.prototype.undoSelection = function() {
 	}
 	this.selectionCubes = [].concat.apply([],this.selectionCubesStack);
 	this.selectionList = [].concat.apply([],this.selectionListStack);
-}
+};
 
 tSNEMap3DRender.prototype.add = function(id, object) {
 	this.xtkRenderer.add(object);
 	this.ontologyObjects[id] = object;
-}
+};
 
 tSNEMap3DRender.prototype.get = function(id) {
 	return this.xtkRenderer.get(id);
-}
+};
 
 tSNEMap3DRender.prototype.remove = function(object) {
 	this.xtkRenderer.remove(object);
-}
+};
 
 tSNEMap3DRender.prototype.render = function() {
 	this.xtkRenderer.render();
-}
+};
 
 tSNEMap3DRender.prototype.orientVolume = function(volume) {
 	this.xtkRenderer.orientVolume(volume);
-}
+};
 
 tSNEMap3DRender.prototype.destroy = function() {
 	this.xtkRenderer.destroy();
@@ -421,16 +434,17 @@ tSNEMap3DRender.prototype.destroy = function() {
 	this.selectionListStack = [];
 	this.selectionCubesStack = [];
 	this.selectionCubes = [];
-	this.selectionList = [];	
-}
+	this.selectionList = [];
+};
 
 tSNEMap3DRender.prototype.itemsChecked = function(checked) {
 
-	var annotation = voxelData.voxel_props.annotation;
-	if (checked.length == 0) {
-		for (var i=0; i<activeAnnotations.length; i++) {
+	var annotation = voxelData.voxel_props.annotation, i, xtkObject;
+	if (checked.length === 0) {
+		for (i=0; i<activeAnnotations.length; i++) {
 			if (!annotationsOn[activeAnnotations[i]]) {
-				var xtkObject = this.get(this.ontologyObjects[activeAnnotations[i]]);
+				//xtkObject = this.get(this.ontologyObjects[activeAnnotations[i]]);
+				xtkObject = this.ontologyObjects[activeAnnotations[i]];
 				xtkObject.color = [0.3, 0.3, 0.3];	
 				xtkObject.opacity = 0.3;
 				xtkObject.modified();
@@ -438,36 +452,37 @@ tSNEMap3DRender.prototype.itemsChecked = function(checked) {
 		}
 	}
 	else {
-		for (var i=0; i<activeAnnotations.length; i++) {
-		
-		  // default dark gray
-		  var colArray = [0.3, 0.3, 0.3];
-		  var opacity = 0.3;
-		  var xtkObject = this.get(this.ontologyObjects[activeAnnotations[i]]);
-		  var curAnnot = xtkObject["annotation"];
-		  if (checked.indexOf(curAnnot) > -1 || annotationsOn[curAnnot]) {
-				colArray = xtkObject["rgbColor"];
+		for (i=0; i<activeAnnotations.length; i++) {
+		// default dark gray
+			var colArray = [0.3, 0.3, 0.3];
+			var opacity = 0.3;
+			//xtkObject = this.get(this.ontologyObjects[activeAnnotations[i]]);
+			xtkObject = this.ontologyObjects[activeAnnotations[i]];
+			var curAnnot = xtkObject.annotation;
+			if (checked.indexOf(curAnnot) > -1 || annotationsOn[curAnnot]) {
+				colArray = xtkObject.rgbColor;
 				opacity = 1.0;
-		  }
-		  xtkObject.color = colArray;	 
-		  xtkObject.opacity = opacity;
-		  xtkObject.modified();
+			}
+			xtkObject.color = colArray;	 
+			xtkObject.opacity = opacity;
+			xtkObject.modified();
 		}
 	}
-}
+};
 
-tSNEMap3DRender.prototype.rowChecked = function(id, status) {
-	var xtkObject = this.get(this.ontologyObjects[id]);
-	if (status || (checked.indexOf(row) > -1)) {
-		xtkObject.color = xtkObject["rgbColor"];	 
-		xtkObject.opacity = 1.0;	
+tSNEMap3DRender.prototype.rowChecked = function(id, status, checked) {
+	//var xtkObject = this.get(this.ontologyObjects[id]);
+	var xtkObject = this.ontologyObjects[id];
+	if (status || (checked.indexOf(id) > -1)) {
+		xtkObject.color = xtkObject.rgbColor;
+		xtkObject.opacity = 1.0;
 	}
 	else {
-		xtkObject.color = [0.3, 0.3, 0.3];	 
-		xtkObject.opacity = 0.3;	
+		xtkObject.color = [0.3, 0.3, 0.3];
+		xtkObject.opacity = 0.3;
 	}
 	xtkObject.modified();
-}
+};
 
 //</Class definition for the tSNEMap3DRender>
 
@@ -508,7 +523,7 @@ function d3ScatterPlotRender() {
 			if (!ctrlPressed) {
 				return;
 			}
-			if (self.selectionListStack.length == 0) {
+			if (self.selectionListStack.length === 0) {
 				return;
 			}
 			self.undoSelection();
@@ -520,7 +535,7 @@ function d3ScatterPlotRender() {
 
 d3ScatterPlotRender.prototype.setJsonData= function(jsonData) {
 	this.jsonData = jsonData;
-}
+};
 
 d3ScatterPlotRender.prototype.render= function() {
 	$("#loading").css('display','none');
@@ -542,7 +557,7 @@ d3ScatterPlotRender.prototype.render= function() {
                      .range([d3.min(this.jsonData, function(d) { return d.y; }), d3.max(this.jsonData, function(d) { return d.y; })]);
 
 	var yRange =  d3.max(this.jsonData, function(d) { return d.y; }) - d3.min(this.jsonData, function(d) { return d.y; });
-	var radiusScale = function(x) {return (x/900) * (yRange); } 
+	var radiusScale = function(x) {return (x/900) * (yRange); }; 
 					
 	var self = this;	
 
@@ -558,10 +573,10 @@ d3ScatterPlotRender.prototype.render= function() {
 						.attr("r", function(d) {return 2;})
 						.attr("class", function(d) {return "ann_" + d.id;})
 						.on("mousedown", self.pointMouseHandler)
- 						.on("mouseover", function(d) {      
-							self.div.transition()        
-									.duration(200)      
-									.style("opacity", .9);      
+						.on("mouseover", function(d) {
+							self.div.transition()
+									.duration(200)
+									.style("opacity", 0.9);
 							self.div.html(d.acro)  
 									.style("left", (d3.event.pageX + 10) + "px")     
 									.style("top", (d3.event.pageY - 38) + "px");
@@ -578,7 +593,7 @@ d3ScatterPlotRender.prototype.render= function() {
 		
 	// from http://bl.ocks.org/lgersman/5310854 see also http://bl.ocks.org/lgersman/5311083
 	
- 	var svg = this.svg;
+	var svg = this.svg;
 	this.svg
 	.on( "mousedown", function() {
 		if (!brainRenderer) {
@@ -591,11 +606,11 @@ d3ScatterPlotRender.prototype.render= function() {
 
 		svg.append( "circle")
 		.attr({
-			r      : 2,
-			class   : "selection",
-			cx       : p[0],
-			cy       : p[1]
-		})
+			r		: 2,
+			class	: "selection",
+			cx		: p[0],
+			cy		: p[1]
+		});
 		self.selectionStart = [p[0], p[1]];
 	})
 	.on( "mousemove", function() {
@@ -604,9 +619,9 @@ d3ScatterPlotRender.prototype.render= function() {
 			var p = d3.mouse( this),
 
 				d = {
-					cx       : parseInt( s.attr( "cx"), 10),
-					cy       : parseInt( s.attr( "cy"), 10),
-					r		 : parseInt( s.attr( "r"), 10),
+					cx		: parseInt( s.attr( "cx"), 10),
+					cy		: parseInt( s.attr( "cy"), 10),
+					r		: parseInt( s.attr( "r"), 10)
 				},
 				move = {
 					r : Math.sqrt(Math.pow(p[0] - d.cx,2) + Math.pow(p[1] - d.cy, 2))
@@ -631,26 +646,26 @@ d3ScatterPlotRender.prototype.render= function() {
 			}
 		}
 		self.addSelection(selectionIds);	
-	}); 												
-    // the x and y axes are meaningless - this is just a pretty picture :-)									
+	});
+	// the x and y axes are meaningless - this is just a pretty picture :-)
 	
-}
+};
 
 d3ScatterPlotRender.prototype.addSelection= function(selectionIds) {
 	if (brainRenderer && selectionIds.length > 0) {
 		brainRenderer.selectInBrainAtlas(selectionIds);	
 		this.svg.append( "circle")
 		.attr({
-			r      : this.selectionRadius,
-			class   : "selected_circle",
-			cx       : this.selectionStart[0],
-			cy       : this.selectionStart[1],
-			id 		 : "selected_circle_" + this.selectionListStack.length
-		})		
+			r	: this.selectionRadius,
+			class	: "selected_circle",
+			cx		: this.selectionStart[0],
+			cy		: this.selectionStart[1],
+			id		: "selected_circle_" + this.selectionListStack.length
+		});		
 		this.selectionListStack.push(selectionIds);
 		this.selectionList = [].concat.apply([],this.selectionListStack);		
 	}
-}
+};
 d3ScatterPlotRender.prototype.refresh= function() {
 	var annSheet = getStyleSheet("Main");	
 	var oldRules = annSheet.cssRules;
@@ -662,15 +677,14 @@ d3ScatterPlotRender.prototype.refresh= function() {
 		var color = this.getColorId(ann, this.activeAnnotationsColor[i]);
 		oldRules[i].style.fill = color;
 	}
-
-}
+};
 
 d3ScatterPlotRender.prototype.keyHandler= function() {
 	if (!d3.event) {
 		return;
 	}
 	//console.log("Hit: " + d3.event.keyCode);
-}
+};
 
 d3ScatterPlotRender.prototype.pointMouseHandler= function() {
 	if (!d3.event) {
@@ -682,7 +696,7 @@ d3ScatterPlotRender.prototype.pointMouseHandler= function() {
 	var middle =  d3.event.which == 2;
 	var right =  d3.event.which == 3;
 	
-    if (right) {
+	if (right) {
 		// pick the current object
 		var annotation_id = arguments[0].id;
 		// must be visible to check the box - (there may be another way to do this)
@@ -692,29 +706,29 @@ d3ScatterPlotRender.prototype.pointMouseHandler= function() {
 		// use jQuery to trigger a mouse click on the checkbox
 		$( checkBoxId ).trigger( "click" );
 	}
-}
+};
 
 d3ScatterPlotRender.prototype.getColor= function(d) {
 	return this.getColorId(d.id, d.color);
-}
+};
 
 d3ScatterPlotRender.prototype.getColorId= function(id, anncolor) {
 	var settings = this.annotationSettings[id];
 	color = "#555555"; // darkgrey
 	if (settings.checked || settings.on) {
 		color = anncolor;
-	};
+	}
 	return color;
-}
+};
 
 d3ScatterPlotRender.prototype.getOpacity= function(d) {
 	var settings = this.annotationSettings[d.id];
 	opacity = 0.3; 
 	if (settings.checked || settings.on) {
 		opacity = 1.0;
-	};
+	}
 	return opacity;
-}
+};
 
 d3ScatterPlotRender.prototype.destroy= function() {
 	$("#3DtsneMap").html("");
@@ -730,7 +744,7 @@ d3ScatterPlotRender.prototype.destroy= function() {
 	for (var i=0; i< this.numRulesAdded; i++) {
 		annSheet.deleteRule(0);
 	}
-}
+};
 
 d3ScatterPlotRender.prototype.clearSelection = function() {
 	for (var i=0; i<this.selectionListStack.length; i++) {
@@ -741,7 +755,7 @@ d3ScatterPlotRender.prototype.clearSelection = function() {
 	if (brainRenderer) {
 		brainRenderer.clearSelectInBrainAtlas();
 	}
-}
+};
 
 d3ScatterPlotRender.prototype.undoSelection = function() {
 	this.selectionListStack.pop();
@@ -751,15 +765,15 @@ d3ScatterPlotRender.prototype.undoSelection = function() {
 	if (brainRenderer) {
 		brainRenderer.undoSelectInBrainAtlas();
 	}
-}
+};
 
 d3ScatterPlotRender.prototype.itemsChecked = function(checked) {
 	
 	var strChecked = [];
 	// convert to strings to match the string keys for ease of lookup
-	checked.every(function(el, id, array) {strChecked.push(el.toString()); return true;})
+	checked.every(function(el, id, array) {strChecked.push(el.toString()); return true;});
 	
-	for (key in this.annotationSettings) {
+	for (var key in this.annotationSettings) {
 		var setting = this.annotationSettings[key];
 		setting.checked = (strChecked.indexOf(key) > -1);
 		setting.on = false;
@@ -768,7 +782,7 @@ d3ScatterPlotRender.prototype.itemsChecked = function(checked) {
 		}
 	}
 	this.refresh();
-}
+};
 
 d3ScatterPlotRender.prototype.setActiveAnnotations = function(activeAnnotations, activeAnnotationsColor) {
 	this.annotationSettings = {}; // a list of the annotation settings keyed by id as string
@@ -782,15 +796,15 @@ d3ScatterPlotRender.prototype.setActiveAnnotations = function(activeAnnotations,
 	this.numRulesAdded = 0;
 	for (var i=0; i<activeAnnotations.length; i++) {
 		setting = {};
-		setting["checked"] = true;
-		setting["on"] = true;
+		setting.checked = true;
+		setting.on = true;
 		this.annotationSettings[activeAnnotations[i]] = setting;
 		annSheet.insertRule("circle.ann_" + activeAnnotations[i] + "{ fill: " + activeAnnotationsColor[i]  + ";}",i);
 		this.numRulesAdded++;
 	}
-}
+};
 
-d3ScatterPlotRender.prototype.rowChecked = function(id, status) {
+d3ScatterPlotRender.prototype.rowChecked = function(id, status, checked) {
 	var setting = this.annotationSettings[id];
 	if (!setting) {
 		return; // ontology row not in voxels
@@ -801,16 +815,94 @@ d3ScatterPlotRender.prototype.rowChecked = function(id, status) {
 	//var allAnn = d3.selectAll("[class=ann_" + id + "]"); 
 	//console.log("ann " + id);
 	//allAnn.style("fill", this.getColor(allAnn[0][0].__data__));
-}
+};
 
 //</Class definition for the d3ScatterPlotRender>
 
 
-function loadMap(mapFilePath, voxelFilePath, title) {
 
+function loadMap(mapFilePath, voxelFilePath, title) {
+	var tsnePoints;
+	var colors;
+	var dimensionality;
+	// simple 3D Euclidean distance for the kdtree
+	function distance3D(a, b) {
+		var dx = a.x-b.x;
+		var dy = a.y-b.y;
+		var dz = a.z-b.z;
+		return dx*dx + dy*dy + dz*dz;
+	}
+	
+	// simple 2D Euclidean distance for the kdtree
+	function distance2D(a, b) {
+		var dx = a.x-b.x;
+		var dy = a.y-b.y;
+		return dx*dx + dy*dy;
+	}
+	
+	function makeAnnotationObject3D(value1, value2, set) {
+		// Find the points belonging to this annotation
+		// and make a display object for them with the 
+		// annotation color.
+		// Some objects may be empty because not all regions 
+		// have data points.
+		
+
+		var colorIndex = -1;
+		var annotations = voxelData.voxel_props.annotation;
+		var pointsForAnnotation = [];
+		for (var i=0; i<tsnePoints.length; i++) {
+			if (annotations[i] == value1) {
+				pointsForAnnotation.push(i);
+				colorIndex = i;
+			}
+		}
+		// if an annotation object has sample points make
+		// an xtkObject to represent it.
+		if (pointsForAnnotation.length > 0) {
+			activeAnnotations.push(value1);
+			var xtkObject = new X.object();
+			xtkObject.pointsize = 6;
+			//xtkObject.linewidth = 1;
+			//xtkObject.reslicing = true;
+			//xtkObject.visible = true;
+			//xtkObject.borders = false;
+			xtkObject.volumeRendering = true;
+			xtkObject.type = 'POINTS';
+			xtkObject.points = new X.triplets(pointsForAnnotation.length * 3);
+			xtkObject.normals = new X.triplets(pointsForAnnotation.length * 3);
+			var objColor = colors[colorIndex];
+			var red = ((objColor >> 16) & 0xFF)/0xFF;
+			var green = ((objColor >> 8) & 0xFF)/0xFF;
+			var blue = (objColor & 0xFF)/0xFF;		
+			for (i=0; i<pointsForAnnotation.length; i++) {
+				var point = tsnePoints[pointsForAnnotation[i]];
+				// unit normals pointing from center (gives 3d lighting effect)
+				var invLen = 1/Math.sqrt(point[0]*point[0] + point[1]*point[1] + point[2]*point[2]);
+				if (dimensionality == 3) {
+					xtkObject.normals.add(point[0] * invLen, point[1] * invLen, point[2] * invLen);
+				} 
+				else
+				{
+					xtkObject.normals.add(0,0,1);
+				}
+				xtkObject.points.add(point[0], point[1], point[2]);
+				xtkObject.color = [red, green, blue];
+			}
+			xtkObject.indexZ = 0;
+			xtkObject.rgbColor = [red, green, blue];
+			xtkObject.annotation = value1;
+			xtkObject.acronym = voxelData.voxel_props.acronym[colorIndex];
+			xtkObject.caption = xtkObject.acronym;
+
+			tsneRenderer.add(value1, xtkObject);
+		}
+	}
+	
+	var kdPoints = [];
 	// Cleanup any rendering objects
 	if (tsneRenderer) {
-		tsneRenderer.destroy();		
+		tsneRenderer.destroy();
 	}
 	activeAnnotations = [];
 	activeAnnotationsColor = [];
@@ -822,10 +914,9 @@ function loadMap(mapFilePath, voxelFilePath, title) {
 	function gotVoxelData(voxel, tsne) {
 		voxelData = voxel[0];
 		tsneMap = tsne[0];
-		var colors = voxelData.voxel_props.colors;
-	
-		
-		var dimensionality = tsneMap.tsneMap[0].length;
+		colors = voxelData.voxel_props.colors;
+		dimensionality = tsneMap.tsneMap[0].length;
+
 		if (dimensionality == 2) {
 			// for (var i=0; i<tsneMap.tsneMap.length; i++) {
 				// tsneMap.tsneMap[i].push(0.0);
@@ -838,39 +929,24 @@ function loadMap(mapFilePath, voxelFilePath, title) {
 		else {
 			tsneRenderer = new tSNEMap3DRender();
 		}	
-		tsneRenderer["dimensionality"] = dimensionality;
-		var tsnePoints = tsneMap.tsneMap;		
-		
+		tsneRenderer.dimensionality = dimensionality;
+
+		tsnePoints = tsneMap.tsneMap;
+		var point;
+		var i;
 		if (dimensionality == 3) {
-			var kdPoints = [];
-			for (var i=0; i<tsnePoints.length; i++) {
-				var point = {x: tsnePoints[i][0], y: tsnePoints[i][1], z: tsnePoints[i][2], id: i};
+			for (i=0; i<tsnePoints.length; i++) {
+				point = {x: tsnePoints[i][0], y: tsnePoints[i][1], z: tsnePoints[i][2], id: i};
 				kdPoints.push(point);
 			}
-			// simple Euclidean distance for the kdtree
-			function distance(a, b) {
-				var dx = a.x-b.x;
-				var dy = a.y-b.y;
-				var dz = a.z-b.z;
-				return dx*dx + dy*dy + dz*dz;
-			}
-		
-			mapTree = new kdTree(kdPoints, distance, ["x", "y", "z"]);
+			mapTree = new kdTree(kdPoints, distance3D, ["x", "y", "z"]);
 		}
 		else {
-			var kdPoints = [];
-			for (var i=0; i<tsnePoints.length; i++) {
-				var point = {x: tsnePoints[i][0], y: tsnePoints[i][1], id: i};
+			for (i=0; i<tsnePoints.length; i++) {
+				point = {x: tsnePoints[i][0], y: tsnePoints[i][1], id: i};
 				kdPoints.push(point);
 			}
-			// simple Euclidean distance for the kdtree
-			function distance(a, b) {
-				var dx = a.x-b.x;
-				var dy = a.y-b.y;
-				return dx*dx + dy*dy;
-			}
-		
-			mapTree = new kdTree(kdPoints, distance, ["x", "y"]);		
+			mapTree = new kdTree(kdPoints, distance2D, ["x", "y"]);		
 		}
 		var annotationSet = new Set(voxelData.voxel_props.annotation);
 		//console.log("Voxel colors : " + colors.length + "tsne length" + tsnePoints.length);
@@ -879,102 +955,43 @@ function loadMap(mapFilePath, voxelFilePath, title) {
 		// Build a map from annotation value to object
 		// and from id to object?
 		
-		function makeAnnotationObject3D(value1, value2, set) {
-			// Find the points belonging to this annotation
-			// and make a display object for them with the 
-			// annotation color.
-			// Some objects may be empty because not all regions 
-			// have data points.
-			
-
-			var colorIndex = -1;
-			var annotations = voxelData.voxel_props.annotation;
-			var pointsForAnnotation = [];
-			for (var i=0; i<tsnePoints.length; i++) {
-				if (annotations[i] == value1) {
-					pointsForAnnotation.push(i);
-					colorIndex = i;
-				}
-			};
-			// if an annotation object has sample points make
-			// an xtkObject to represent it.
-			if (pointsForAnnotation.length > 0) {
-				activeAnnotations.push(value1);
-				var xtkObject = new X.object();
-				xtkObject.pointsize = 6;
-				//xtkObject.linewidth = 1;
-				//xtkObject.reslicing = true;
-				//xtkObject.visible = true;
-				//xtkObject.borders = false;
-				xtkObject.volumeRendering = true;
-				xtkObject.type = 'POINTS';		
-				xtkObject.points = new X.triplets(pointsForAnnotation.length * 3);
-				xtkObject.normals = new X.triplets(pointsForAnnotation.length * 3);
-				var objColor = colors[colorIndex];
-				var red = ((objColor >> 16) & 0xFF)/0xFF;
-				var green = ((objColor >> 8) & 0xFF)/0xFF;
-				var blue = (objColor & 0xFF)/0xFF;		
-				for (var i=0; i<pointsForAnnotation.length; i++) {
-					var point = tsnePoints[pointsForAnnotation[i]];
-					// unit normals pointing from center (gives 3d lighting effect)
-					var invLen = 1/Math.sqrt(point[0]*point[0] + point[1]*point[1] + point[2]*point[2]);
-					if (dimensionality = 3) {
-						xtkObject.normals.add(point[0] * invLen, point[1] * invLen, point[2] * invLen);
-					} 
-					else
-					{
-						xtkObject.normals.add(0,0,1);
-					}
-					xtkObject.points.add(point[0], point[1], point[2]);					 		
-					xtkObject.color = [red, green, blue];
-				}
-				xtkObject.indexZ = 0;
-				xtkObject["rgbColor"] = [red, green, blue];
-				xtkObject["annotation"] = value1;
-				xtkObject["acronym"] = voxelData.voxel_props.acronym[colorIndex];
-				xtkObject.caption = xtkObject["acronym"];
-
-				tsneRenderer.add(value1, xtkObject);
-			}
-		}
-		
-		function d2h(d) { return '#' + ('000000' + (+d).toString(16)).slice(-6); }		
+		function d2h(d) { return '#' + ('000000' + (+d).toString(16)).slice(-6); }
 		// TODO move these to the 2D renderers
 		function plotDataForD3JS(tsnePoints, voxelData) {
-			var jsonTsnePlotData = []
+			var jsonTsnePlotData = [];
 			for (var i=0; i < tsnePoints.length; i++) {
 				point = {};
-				point["x"] = tsnePoints[i][0];
-				point["y"] = tsnePoints[i][1];				
-				point["id"] = voxelData.annotation[i];
-				point["acro"] = voxelData.acronym[i];
-				point["color"] = d2h(voxelData.colors[i]);					
+				point.x = tsnePoints[i][0];
+				point.y = tsnePoints[i][1];
+				point.id = voxelData.annotation[i];
+				point.acro = voxelData.acronym[i];
+				point.color = d2h(voxelData.colors[i]);
 				jsonTsnePlotData.push(point);
-				if (activeAnnotations.indexOf(point["id"]) == -1) {
-					activeAnnotations.push(point["id"]);
-					activeAnnotationsColor.push(point["color"]);
+				if (activeAnnotations.indexOf(point.id) == -1) {
+					activeAnnotations.push(point.id);
+					activeAnnotationsColor.push(point.color);
 				}
 			}	
 			return jsonTsnePlotData;
 		}
 		
 		function plotDataForRGraph(tsnePoints, voxelData) {
-			var jsonTsnePlotData = []
+			var jsonTsnePlotData = [];
 			for (var i=0; i < tsnePoints.length; i++) {
 				point = [];
 				point.push(tsnePoints[i][0]);
-				point.push(tsnePoints[i][1]);	
+				point.push(tsnePoints[i][1]);
 				point.push(d2h(voxelData.colors[i]));
 				point.push(voxelData.acronym[i]);
-				point.push(voxelData.annotation[i]);					
+				point.push(voxelData.annotation[i]);
 				jsonTsnePlotData.push(point);
 				if (activeAnnotations.indexOf(point[4]) == -1) {
 					activeAnnotations.push(point[4]);
 					activeAnnotationsColor.push(point[2]);
 				}
-			}	
+			}
 			return jsonTsnePlotData;
-		}		
+		}
 		
 		function makeAnnotationObject2D(tsnePoints, voxelData) {
 
@@ -983,37 +1000,37 @@ function loadMap(mapFilePath, voxelFilePath, title) {
 			tsneRenderer.setJsonData(jsonTsnePlotData);
 		}
 		
-		if (dimensionality == 2) {	
+		if (dimensionality == 2) {
 			makeAnnotationObject2D(tsnePoints, voxelData.voxel_props);
 			tsneRenderer.setActiveAnnotations(activeAnnotations, activeAnnotationsColor);
 		}
 		else {
-			annotationSet.forEach(makeAnnotationObject3D);		
+			annotationSet.forEach(makeAnnotationObject3D);
 		}
 		
-		tsneRenderer.render();	
+		tsneRenderer.render();
 		$("#title").text(title);
 
-	};
+	}
 	function notGotVoxelData(voxel, tsne) {
 		alert("Failed to get data!");
-	};
+	}
 	function getJSONFail(jqXHR, textStatus, errorThrown) {
 		alert('getJSON request failed! ' + textStatus + ": " + errorThrown.message + ": " + jqXHR.responseText.slice(1,50));
-	};
+	}
 }
 
 webix.ready(function() {
 	defineControls();
 	//setup_tSNEMapRender();
 	// The ontology JSON can be loaded together with the tSNE map
- 	var json_data;
+	var json_data;
 	$.getJSON( "ontology.json", function( data ) {
 		displayOntologyData(data);
-	})
+	});
 });
 
-webix.event(window, "resize", function(){ atlasTable.adjust(); })
+webix.event(window, "resize", function(){ atlasTable.adjust(); });
 
 function css_color_from_hextriplet(hex_triplet) {
 	var textCol = (parseInt("0x"+hex_triplet, 16) > 0xffffff/2) ? 'black':'white';
@@ -1113,16 +1130,16 @@ function defineControls() {
 		checkboxRefresh:true,
 		on:{
 			onAfterLoad:function(){
-			  webix.delay(function(){
-				this.adjustRowHeight("name", true); 
-				this.render();
-			  }, this);
+				webix.delay(function(){
+					this.adjustRowHeight("name", true); 
+					this.render();
+				}, this);
 			},
 			onColumnResize:function(){
 				this.adjustRowHeight("name", true);
 				this.render();
-			},			
-		},
+			}
+		}
 	};
 		
 	selectTableDef = {
@@ -1214,11 +1231,11 @@ function displayOntologyData(json_data){
 	var myjson = webix.DataDriver.myjson = webix.copy(webix.DataDriver.json);
 	myjson.child=function(obj){
 		return obj.children;
-	};	
+	};
 	atlasTable.parse(ontologyData, "myjson");
 	atlasTable.render();
 	atlasTable.checkItem(rootId);	
-};
+}
 
 function atlasItemsChecked(id) {
 	//webix.message("Click checkbox: "+id);
@@ -1236,11 +1253,10 @@ function atlasItemCheck (row, column, state){
 	//webix.message("Single check : " + item.name + " acronym check " + item.acronym) + " state: " + state;
 
 	annotationsOn[row] = (state == 1 ) ? true: false;
-	tsneRenderer.rowChecked(row, annotationsOn[row]);
+	tsneRenderer.rowChecked(row, annotationsOn[row], checked);
 }
 
 function on_checked_change(row, col, state) {
-	
 	//webix.message("row: " + row + " col: " + col + " state: " + state );    
 }
 
