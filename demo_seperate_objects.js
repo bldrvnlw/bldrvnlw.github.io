@@ -497,18 +497,29 @@ function getStyleSheet(unique_title) {
 
 //<Class definition for the d3ScatterPlotRender>
 function d3ScatterPlotRender() {
+	var tsneMap = $("#3DtsneMap");
+	this.svgWindowsSize = Math.max(Math.min(window.innerHeight, window.innerWidth) - 200, 500);
+	this.plotSize = 1000;
 	this.svg = d3.select($("#3DtsneMap")[0])
 			.append("svg")
-			.attr("width", 1000)
-			.attr("height", 1000);
+			.attr("id", "svgChart")
+			.attr("width", this.svgWindowsSize)  //try Math.max(Math.min(window.innerHeight, window.innerWidth) - 100, 500) for the width and height
+			.attr("height", this.svgWindowsSize)
+			.attr("viewBox", "0 0 " + this.plotSize + " " + this.plotSize); //viewbox defines a mapping between svg coords (0-width, 0-height) and the viewBox size
+	var chart = $("#svgChart");
+	$(window).on("resize", function() {
+		var targetWidth = Math.max(Math.min(window.innerHeight, window.innerWidth) - 200, 500); //chart.parent().width();
+		chart.attr("width", targetWidth);
+		chart.attr("height", targetWidth);
+	});
 	
 	// tooltips are held in their own overlapping div
-	this.div = d3.select($("#3DtsneMap")[0]).append("div")	
-		.attr("class", "tooltip")				
-		.style("opacity", 0);	
+	this.div = d3.select($("#3DtsneMap")[0]).append("div")
+		.attr("class", "tooltip")
+		.style("opacity", 0);
 		
 	this.selectionList = [];
-	this.selectionListStack = [];	
+	this.selectionListStack = [];
 	
 	d3.select("body").on("keydown", key);
 	 
@@ -542,22 +553,22 @@ d3ScatterPlotRender.prototype.render= function() {
 	
 	var xScale = d3.scale.linear()
                      .domain([d3.min(this.jsonData, function(d) { return d.x; }), d3.max(this.jsonData, function(d) { return d.x; })])
-                     .range([50, 950]);	
+                     .range([0, this.plotSize]);
 					 
 	var xInvScale = d3.scale.linear()
-                     .domain([50, 950])
+                     .domain([0, this.plotSize])
                      .range([d3.min(this.jsonData, function(d) { return d.x; }), d3.max(this.jsonData, function(d) { return d.x; })]);	
 
 	var yScale = d3.scale.linear()
                      .domain([d3.min(this.jsonData, function(d) { return d.y; }), d3.max(this.jsonData, function(d) { return d.y; })])
-                     .range([50, 950]);	
+                     .range([0, this.plotSize]);
 					 
 	var yInvScale = d3.scale.linear()
-                     .domain([50, 950])
+                     .domain([0, this.plotSize])
                      .range([d3.min(this.jsonData, function(d) { return d.y; }), d3.max(this.jsonData, function(d) { return d.y; })]);
 
 	var yRange =  d3.max(this.jsonData, function(d) { return d.y; }) - d3.min(this.jsonData, function(d) { return d.y; });
-	var radiusScale = function(x) {return (x/900) * (yRange); }; 
+	var radiusScale = function(x) {return (x/this.plotSize) * (yRange); }; 
 					
 	var self = this;	
 
@@ -606,10 +617,10 @@ d3ScatterPlotRender.prototype.render= function() {
 
 		svg.append( "circle")
 		.attr({
-			r		: 2,
-			class	: "selection",
-			cx		: p[0],
-			cy		: p[1]
+			"r"		: 2,
+			"class"	: "selection",
+			"cx"	: p[0],
+			"cy"	: p[1]
 		});
 		self.selectionStart = [p[0], p[1]];
 	})
@@ -656,11 +667,11 @@ d3ScatterPlotRender.prototype.addSelection= function(selectionIds) {
 		brainRenderer.selectInBrainAtlas(selectionIds);	
 		this.svg.append( "circle")
 		.attr({
-			r	: this.selectionRadius,
-			class	: "selected_circle",
-			cx		: this.selectionStart[0],
-			cy		: this.selectionStart[1],
-			id		: "selected_circle_" + this.selectionListStack.length
+			"r"	: this.selectionRadius,
+			"class"	: "selected_circle",
+			"cx"	: this.selectionStart[0],
+			"cy"	: this.selectionStart[1],
+			"id"	: "selected_circle_" + this.selectionListStack.length
 		});		
 		this.selectionListStack.push(selectionIds);
 		this.selectionList = [].concat.apply([],this.selectionListStack);		
